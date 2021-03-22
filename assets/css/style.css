@@ -1,0 +1,243 @@
+@font-face {
+    font-family: VIE-HandelGothic;
+    src: url('../font/VIE-HandelGothic-Bold_0.otf');
+    src: url('../font/VIE-HandelGothic Medium_0.otf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    font-family: VIE-HandelGothic, serif;
+}
+
+/* Nav */
+.bg-blue {
+    /*background-color: ;*/
+    background-image: linear-gradient(#2896d8, #194c9f);
+    /* max-width: 1680px; */
+    /* height: 100px; */
+
+}
+.img-logo-right {
+    /* Style for "Layer 4" */
+    /* width: 456px; */
+    height: 51px;
+    float: right;
+    padding: 10px 20px;
+}
+.img-logo-left {
+    /* Style for "Logo" */
+    width: 326px;
+    height: 51px;
+    float: left;
+    padding: 10px 20px;
+    /* background-color: #000000; */
+}
+
+/* Cover header */
+.cover-header-background-img{
+    background-image: url(../img/img-cover-header.png);
+    /* width: 1730px; */
+    /* height: 1160px; */
+    background-size: 100% 100%;
+    /* padding: 0px; */
+   
+}
+.cover-header-background-color{
+    width: 100%;
+    /* height: 1160px; */
+    background-color: #1f1e23;
+    opacity: 0.49;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.title-area {
+    /* Style for "Rectangle" */
+    width: 697px;
+    /* height: 433px; */
+    height: auto;
+    border: 10px solid #fefdfd;
+    margin: auto;
+    /* margin-top: 315px; */
+    padding: 80px 15px;
+}
+.title-header-1 {
+    /* Style for "Smartphone" */
+    color: #fefdfd;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 54px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Smartphone" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block;
+   
+}
+.title-header-2 {
+    /* Text style for "samsung 4g" */
+    font-size: 81px;
+    color: #fefdfd;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+    display: block;
+}
+.title-header-3 {
+    /* Style for "Chỉ còn" */
+    color: #fefdfd;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Chỉ còn" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block;
+}
+.title-header-4 {
+    /* Style for "1.290.000" */
+    width: 586px;
+    height: 79px;
+    color: #fefdfd;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 115px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "" */
+    font-size: 54px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "1.290.000" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.title-header-5 {
+    /* Style for "(*)" */
+    width: 46px;
+    height: 35px;
+    color: #fefdfd;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 41px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "(*)" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+/* SS CORE */
+.ss-core {
+    position: relative;
+}
+.title-ss-core {
+    left: 50%;
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 90px;
+    /* left: 16px; */
+}
+.title-ss-core h3 {
+    /* Style for "2.290.000" */
+    color: #0652a4;
+    font-size: 115px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* Text style for "" */
+    font-size: 54px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "2.290.000" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.price-ss-core {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 600px;
+}
+.price-ss-core h3 {
+    /* Style for "2.290.000" */
+    color: #0652a4;
+
+    font-size: 115px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "" */
+    font-size: 54px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "2.290.000" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: line-through red;
+}
+.price-ss-core h3 sup {
+    text-decoration-line: none;
+    font-size: 60%;
+}
+.price-ss-core span {
+    /* Style for "(*) khi mu" */
+    color: #0652a4;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "(*) khi mu" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.ss-core-properties {}
+.ss-core-properties h4 {
+    color: #858585;
+    font-size: 20px;
+}
+.ss-core-properties h3 {
+    color: #050505;
+    font-size: 35px;
+    font-weight: bold;
+}
