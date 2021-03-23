@@ -2,8 +2,8 @@
     font-family: VIE-HandelGothic;
     src: url('../font/VIE-HandelGothic-Bold_0.otf');
     src: url('../font/VIE-HandelGothic Medium_0.otf');
-    font-weight:normal;
-    font-style:normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -18,6 +18,7 @@ body {
     /* height: 100px; */
 
 }
+
 .img-logo-right {
     /* Style for "Layer 4" */
     /* width: 456px; */
@@ -25,6 +26,7 @@ body {
     float: right;
     padding: 10px 20px;
 }
+
 .img-logo-left {
     /* Style for "Logo" */
     width: 326px;
@@ -35,15 +37,16 @@ body {
 }
 
 /* Cover header */
-.cover-header-background-img{
+.cover-header-background-img {
     background-image: url(../img/img-cover-header.png);
     /* width: 1730px; */
     /* height: 1160px; */
     background-size: 100% 100%;
     /* padding: 0px; */
-   
+
 }
-.cover-header-background-color{
+
+.cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
     background-color: #1f1e23;
@@ -52,6 +55,7 @@ body {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
 .title-area {
     /* Style for "Rectangle" */
     width: 697px;
@@ -62,6 +66,7 @@ body {
     /* margin-top: 315px; */
     padding: 80px 15px;
 }
+
 .title-header-1 {
     /* Style for "Smartphone" */
     color: #fefdfd;
@@ -78,8 +83,9 @@ body {
     letter-spacing: normal;
     line-height: normal;
     display: block;
-   
+
 }
+
 .title-header-2 {
     /* Text style for "samsung 4g" */
     font-size: 81px;
@@ -93,6 +99,7 @@ body {
     line-height: normal;
     display: block;
 }
+
 .title-header-3 {
     /* Style for "Chỉ còn" */
     color: #fefdfd;
@@ -110,6 +117,7 @@ body {
     line-height: normal;
     display: block;
 }
+
 .title-header-4 {
     /* Style for "1.290.000" */
     width: 586px;
@@ -133,6 +141,7 @@ body {
     letter-spacing: normal;
     line-height: normal;
 }
+
 .title-header-5 {
     /* Style for "(*)" */
     width: 46px;
@@ -156,6 +165,7 @@ body {
 .ss-core {
     position: relative;
 }
+
 .title-ss-core {
     left: 50%;
     /* right: 50%; */
@@ -164,6 +174,7 @@ body {
     top: 90px;
     /* left: 16px; */
 }
+
 .title-ss-core h3 {
     /* Style for "2.290.000" */
     color: #0652a4;
@@ -184,12 +195,14 @@ body {
     letter-spacing: normal;
     line-height: normal;
 }
+
 .price-ss-core {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 600px;
 }
+
 .price-ss-core h3 {
     /* Style for "2.290.000" */
     color: #0652a4;
@@ -212,10 +225,12 @@ body {
     line-height: normal;
     text-decoration: line-through red;
 }
+
 .price-ss-core h3 sup {
     text-decoration-line: none;
     font-size: 60%;
 }
+
 .price-ss-core span {
     /* Style for "(*) khi mu" */
     color: #0652a4;
@@ -231,13 +246,179 @@ body {
     letter-spacing: normal;
     line-height: normal;
 }
+
 .ss-core-properties {}
+
 .ss-core-properties h4 {
     color: #858585;
     font-size: 20px;
 }
+
 .ss-core-properties h3 {
     color: #050505;
     font-size: 35px;
     font-weight: bold;
+}
+
+/* Middle */
+.bg-middle {
+    background-image: url(../img/bg-middle.png);
+    background-position: left bottom;
+}
+
+.bg-middle h3 {
+    /* Style for "giới thiệu" */
+    /* width: 395px;
+    height: 31px; */
+    color: #0d0d0d;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    /* line-height: normal; */
+    /* text-align: left; */
+    text-transform: uppercase;
+    /* Text style for "giới thiệu" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block
+}
+
+.bg-middle p {
+    /* Style for "Theo định" */
+    /* width: 1296px;
+    height: 86px; */
+    color: #0d0d0d;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* text-align: left; */
+    /* Text style for "Theo định" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: block
+}
+
+.bg-middle h2 {
+    /* Style for "Thiết Kế H" */
+    /* width: 778px;
+    height: 56px; */
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 63px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    /* Text style for "Thiết Kế H" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.borderless table {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.phone-detail {
+
+}
+.phone-detail h3 {
+    /* Style for "Ghi Lại Tr" */
+    /* width: 1007px;
+    height: 57px; */
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 63px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "Ghi Lại Tr" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.phone-detail p {
+    /* Style for "Hệ điều hà" */
+/* width: 1139px;
+height: 98px; */
+color: #020202;
+/* font-family: "VIE - Handel Gothic Medium"; */
+font-size: 29px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+/* Text style for "Hệ điều hà" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+/* Tra cưu */
+
+.tra-cuu {
+    background-image: url(../img/bg-phone-a.png);
+    background-position: left center;
+    background-color: #fff;
+    min-height: 300px;
+    padding-top: 50px;
+}
+.tra-cuu h3 {
+    /* Style for "TRA CỨU" */
+    /* width: 129px;
+    height: 26px; */
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    text-transform: uppercase;
+    /* Text style for "TRA CỨU" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.tra-cuu p {
+    /* Style for "Vui lòng t" */
+    /* width: 789px;
+    height: 26px; */
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    /* Text style for "Vui lòng t" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.form-tra-cuu {
+    text-align: right;
+    background-color: #9cddfd;
+    /* width: 100%; */
+    position: absolute;
+    right: 13px;
+    padding: 20px 10px 10px 10px;
 }
