@@ -59,7 +59,7 @@ body {
 .title-area {
     /* Style for "Rectangle" */
     width: 697px;
-    /* height: 433px; */
+    height: 433px;
     height: auto;
     border: 10px solid #fefdfd;
     margin: auto;
@@ -120,8 +120,8 @@ body {
 
 .title-header-4 {
     /* Style for "1.290.000" */
-    width: 586px;
-    height: 79px;
+    /* width: 586px;
+    height: 79px; */
     color: #fefdfd;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 115px;
@@ -144,8 +144,8 @@ body {
 
 .title-header-5 {
     /* Style for "(*)" */
-    width: 46px;
-    height: 35px;
+    /* width: 46px;
+    height: 35px; */
     color: #fefdfd;
     /* font-family: "VIE - Handel Gothic Medium"; */
     font-size: 41px;
@@ -328,12 +328,14 @@ body {
     border-right-style: none;
     border-bottom-style: none;
 }
-.borderless td, .borderless th {
+
+.borderless td,
+.borderless th {
     border: none;
 }
-.phone-detail {
 
-}
+.phone-detail {}
+
 .phone-detail h3 {
     /* Style for "Ghi Lại Tr" */
     /* width: 1007px;
@@ -354,20 +356,20 @@ body {
 
 .phone-detail p {
     /* Style for "Hệ điều hà" */
-/* width: 1139px;
+    /* width: 1139px;
 height: 98px; */
-color: #020202;
-/* font-family: "VIE - Handel Gothic Medium"; */
-font-size: 29px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
-/* Text style for "Hệ điều hà" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 29px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "Hệ điều hà" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 /* Tra cưu */
@@ -379,6 +381,7 @@ line-height: normal;
     min-height: 300px;
     padding-top: 50px;
 }
+
 .tra-cuu h3 {
     /* Style for "TRA CỨU" */
     /* width: 129px;
@@ -397,6 +400,7 @@ line-height: normal;
     letter-spacing: normal;
     line-height: normal;
 }
+
 .tra-cuu p {
     /* Style for "Vui lòng t" */
     /* width: 789px;
@@ -414,6 +418,7 @@ line-height: normal;
     letter-spacing: normal;
     line-height: normal;
 }
+
 .form-tra-cuu {
     text-align: right;
     background-color: #9cddfd;
@@ -421,4 +426,174 @@ line-height: normal;
     position: absolute;
     right: 13px;
     padding: 20px 10px 10px 10px;
+}
+
+.list-goi-cuoc {
+    background-color: #004ea2;
+}
+
+.list-goi-cuoc h3 {
+    /* Style for "gói cước ư" */
+    /* width: 283px;
+    height: 30px; */
+    color: #f7f7f7;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 10px;
+}
+
+/* FAQ */
+.faq {
+    background-image: url(../img/bg-faq.png);
+    background-position: center;
+    margin-bottom: 80px;
+}
+.faq h3 {
+    /* Style for "Câu hỏi th" */
+    /* width: 369px;
+    height: 37px; */
+    padding: 15px;
+    color: #004ea2;
+    /* font-family: "VIE - Handel Gothic"; */
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Câu hỏi th" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.content-faq {
+    background-color: #76d2ff75;
+    box-shadow: 4px 7px 7px 5px rgba(37, 37, 38, 0.76);
+    border-radius: 20px;
+    /* Style for "1.  Đối tư" */
+    /* width: 627px;
+    height: 119px; */
+    color: #020202;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "1.  Đối tư" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    margin: 12px;
+    min-height: 225px;
+    /* Text style for ", Khách hà" */
+}
+
+/* Footer */
+.footer {
+
+}
+.footer h3 {
+    /* Style for "XIN VUI LÒ" */
+    /* width: 845px;
+    height: 45px; */
+    color: #1a4c9f;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "XIN VUI LÒ" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.footer form {
+    margin-top: 58px;
+    margin-bottom: 58px;   
+}
+.bg-lien-he {
+    background-image: linear-gradient(#004e98, #0a93ffc2);
+}
+.bg-lien-he h4 {
+    /* Style for "Tổng Công" */
+    /* width: 438px;
+    height: 50px; */
+    color: #fbfcfe;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Tổng Công" */
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "Công Ty Cổ" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.bg-lien-he h5 {
+    /* Style for "Tổng Công" */
+    /* width: 438px;
+    height: 50px; */
+    color: #fbfcfe;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Tổng Công" */
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "Công Ty Cổ" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.bg-lien-he ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bg-lien-he li {
+        /* Style for "WWW.MOBIFO" */
+    /* width: 210px; */
+    /* height: 65px; */
+    color: #fbfcfe;
+    /* font-family: "VIE - Handel Gothic Medium"; */
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "WWW.MOBIFO" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
