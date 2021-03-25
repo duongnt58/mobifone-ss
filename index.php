@@ -29,6 +29,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+$useragent=$_SERVER['HTTP_USER_AGENT'];
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+
+$isMobile = isMobile();
+
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +59,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
 <!-- Navigation -->
-<div class="container">
+<?php if ($isMobile === 1) { ?>
+    <ul class="nav nav-fill bg-blue">
+        <li class="nav-item">
+            <a class="" href="#">
+                <img src="assets/img/logo-ss.png" alt="" class="img-logo-left" />
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="" href="#">
+                <img
+                        src="assets/img/logo-mbf.png"
+                        alt=""
+                        class="img-logo-right"
+                        alt="Mobifone"
+                />
+            </a>
+        </li>
+    </ul>
+<?php } else { ?>
+
+<div class="container ">
     <div class="row bg-blue" style="margin-left: 0px; margin-right: 0px">
         <div class="col-4">
             <a class="" href="#">
@@ -72,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 </div>
-
+<?php } ?>
 <!-- Page Content -->
 <div class="container">
     <div class="row">
@@ -121,26 +149,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h3>Lên tới 70</h3>
         </div>
     </div>
-    <div class="row img-container">
+    <div class="row img-container text-center">
         <div class="col-12 col-md-3 p-3">
-            <img src="assets/img/img-gioi-thieu.png" alt="" class="img-fluid" />
+            <img src="assets/img/img-gioi-thieu.png" alt="" class="img-fluid" onClick="actionClickImg('gioi-thieu')"/>
         </div>
         <div class="col-12 col-md-3 p-3 ">
-            <img src="assets/img/img-tra-cuu.png" alt="" class="img-fluid" />
+            <img src="assets/img/img-tra-cuu.png" alt="" class="img-fluid img-container-small" onClick="actionClickImg('tra-cuu')"/>
         </div>
         <div class="col-12 col-md-3 p-3 ">
-            <img src="assets/img/img-uu-diem.png" alt="" class="img-fluid" />
+            <img src="assets/img/img-uu-diem.png" alt="" class="img-fluid img-container-small" onClick="actionClickImg('uu-diem')"/>
         </div>
         <div class="col-12 col-md-3 p-3">
             <img
                 src="assets/img/img-goi-cuoc-uu-dai.png"
                 alt=""
-                class="img-fluid"
+                class="img-fluid" onClick="actionClickImg('uu-dai')"
             />
         </div>
     </div>
     <div class="row bg-middle">
-        <div class="col-12">
+        <div class="col-12" id="gioi-thieu">
             <h3 class="">giới thiệu chương trình:</h3>
             <p class="text-justify">
                 Theo định hướng của Chính phủ đển năm 2030 phổ cập mạng di động
@@ -225,8 +253,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </table>
         </div>
     </div>
-    <div class="row phone-detail">
-        <div class="col-12">
+    <div class="row phone-detail" >
+        <div class="col-12" id="uu-diem">
             <h3>Ghi Lại Trọn Vẹn Mọi Khoảnh Khắc</h3>
             <img src="assets/img/img-phone-camera.png" alt="" class="img-fluid" />
         </div>
@@ -258,7 +286,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="assets/img/img-run-slepp.png" alt="" class="img-fluid" />
         </div>
     </div>
-    <div class="row tra-cuu">
+    <div class="row tra-cuu" id="tra-cuu">
         <div class="col-10 offset-1">
             <h3>Tra cứu</h3>
             <p>
@@ -283,7 +311,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
     </div>
-    <div class="row list-goi-cuoc">
+    <div class="row list-goi-cuoc" id="uu-dai">
         <div class="col-12 text-center">
             <h3>gói cước ưu đãi</h3>
         </div>
@@ -319,7 +347,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <td>
                         <button
                             type="button"
-                            class="btn btn-warning text-danger font-weight-bold"
+                            class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay(1)"
                         >
                             Mua ngay
                         </button>
@@ -335,7 +363,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <td>
                         <button
                             type="button"
-                            class="btn btn-warning text-danger font-weight-bold"
+                            class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay(2)"
                         >
                             Mua ngay
                         </button>
@@ -354,7 +382,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <td>
                         <button
                             type="button"
-                            class="btn btn-warning text-danger font-weight-bold"
+                            class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay(3)"
                         >
                             Mua ngay
                         </button>
@@ -362,7 +390,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </tr>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Gói cước Combo 2 FF120</td>
+                    <td>Gói cước Combo 2 FF200</td>
                     <td>200.000</td>
                     <td>
                         + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
@@ -373,7 +401,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <td>
                         <button
                             type="button"
-                            class="btn btn-warning text-danger font-weight-bold"
+                            class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay(4)"
                         >
                             Mua ngay
                         </button>
@@ -454,7 +482,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 <div class="container footer">
     <div class="row">
-        <div class="col-12 col-md-7">
+        <div class="col-12 col-md-7" id="contact">
             <h3>
                 XIN VUI LÒNG ĐỂ LẠI THÔNG TIN NẾU ANH/CHỊ ĐÃ CHỌN ĐƯỢC GÓI CƯỚC PHÙ
                 HỢP HOẶC CẦN CHÚNG TÔI TƯ VẤN THÊM
@@ -464,8 +492,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="col-12 col-md-9">
                         <div class="form-group">
                             <!-- <label for="exampleInputEmail1">Email address</label> -->
-                            <select class="form-control" id="" name="goi_cuoc">
-                                <option>GÓI CƯỚC ĐÃ CHỌN</option>
+                            <select class="form-control" id="selectGoiCuoc" name="goi_cuoc">
+                                <option value="0">GÓI CƯỚC ĐÃ CHỌN</option>
+                                <option value="1">TN50</option>
+                                <option value="2">FF50</option>
+                                <option value="3">FF120</option>
+                                <option value="4">FF200</option>
                             </select>
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                         </div>
@@ -545,6 +577,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
 <script
     src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
     data-auto-replace-svg="nest"
