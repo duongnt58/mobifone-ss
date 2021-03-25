@@ -1,27 +1,32 @@
 <?php
 include 'config.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $goi_cuoc = isset($_POST['goi_cuoc']) ? $_POST['goi_cuoc'] : "";
-    $name = isset($_POST['name']) ? $_POST['name'] : "";
-    $sdt = isset($_POST['sdt']) ? $_POST['sdt'] : "";
-    $dia_chi = isset($_POST['dia_chi']) ? $_POST['dia_chi'] : "";
-    $timeTs = time();
-    $sql = "INSERT INTO customer (goi_cuoc, ten, sdt, dia_chi, created_at)"
-        . " VALUE (:goi_cuoc, :ten, :sdt, :dia_chi, :created_at)";
-    $stmt = $conn->prepare($sql);
-    $data = [
-        $goi_cuoc, $name, $sdt, $dia_chi, time()
-    ];
-    $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':goi_cuoc', $goi_cuoc);
-    $stmt->bindParam(':ten', $name);
-    $stmt->bindParam(':sdt', $sdt);
-    $stmt->bindParam(':dia_chi', $dia_chi);
-    $stmt->bindParam(':created_at', $timeTs);
-    $stmt->execute();
+    try {
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $goi_cuoc = isset($_POST['goi_cuoc']) ? $_POST['goi_cuoc'] : "";
+        $name = isset($_POST['name']) ? $_POST['name'] : "";
+        $sdt = isset($_POST['sdt']) ? $_POST['sdt'] : "";
+        $dia_chi = isset($_POST['dia_chi']) ? $_POST['dia_chi'] : "";
+        $timeTs = time();
+        $sql = "INSERT INTO customer (goi_cuoc, ten, sdt, dia_chi, created_at)"
+            . " VALUE (:goi_cuoc, :ten, :sdt, :dia_chi, :created_at)";
+        $stmt = $conn->prepare($sql);
+        $data = [
+            $goi_cuoc, $name, $sdt, $dia_chi, time()
+        ];
+        $stmt = $conn->prepare($sql);
+        $stmt->bindParam(':goi_cuoc', $goi_cuoc);
+        $stmt->bindParam(':ten', $name);
+        $stmt->bindParam(':sdt', $sdt);
+        $stmt->bindParam(':dia_chi', $dia_chi);
+        $stmt->bindParam(':created_at', $timeTs);
+        $stmt->execute();
 //    echo "New records created successfully";
-    $conn = null;
-
+        $conn = null;
+    } catch(PDOException $e) {
+        echo "Error: " . $e->getMessage();
+    }
 }
 
 ?>
