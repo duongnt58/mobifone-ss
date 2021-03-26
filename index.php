@@ -4,6 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn->exec("set names utf8");
         $goi_cuoc = isset($_POST['goi_cuoc']) ? $_POST['goi_cuoc'] : "";
         $name = isset($_POST['name']) ? $_POST['name'] : "";
         $sdt = isset($_POST['sdt']) ? $_POST['sdt'] : "";
