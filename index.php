@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+$isOK = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -24,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindParam(':created_at', $timeTs);
         $stmt->execute();
 //    echo "New records created successfully";
+        $isOK = true;
         $conn = null;
     } catch(PDOException $e) {
         echo "Error: " . $e->getMessage();
@@ -58,7 +60,7 @@ $isMobile = isMobile();
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
-<body>
+<body <?php if ($isOK) echo "onLoad=\"$('#exampleModal').modal('show');\""?> >
 <!-- Navigation -->
 <?php if ($isMobile === 1) { ?>
     <ul class="nav nav-fill bg-blue">
@@ -299,7 +301,7 @@ $isMobile = isMobile();
                     <div class="form-group mb-2">NHẬP SỐ THUÊ BAO</div>
                     <div class="form-group mx-sm-3 mb-2">
                         <input
-                            type="password"
+                            type="text"
                             class="form-control"
                             id="inputPassword2"
                             placeholder=""
@@ -574,7 +576,31 @@ $isMobile = isMobile();
         </div>
     </div>
 </div>
+<!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">-->
+<!--    Launch demo modal-->
+<!--</button>-->
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-light">
+                <h5 class="modal-title" id="exampleModalLabel">Thông báo!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-danger">
+                Thông tin của bạn đã được ghi nhận thành thông.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+<!--                <button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
