@@ -568,7 +568,17 @@ $isMobile = isMobile();
                         Công Ty Cổ Phần Dịch Vụ Gia Tăng MobiFone
                     </h5>
                 </div>
-                <div class="col-6 offset-6">
+                <div class="col-6 d-none d-md-block d-lg-block">
+                    <hr style="color: #fff;
+    border-top: 1px solid #fff !important;
+    bottom: -40px;
+    position: relative;
+    margin-left: 18px;">
+                </div>
+                <div class="col-6 offset-6 d-none d-md-block d-lg-block">
+                    <img src="assets/img/logo-mbf.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-6 offset-3 d-block d-md-none d-lg-none">
                     <img src="assets/img/logo-mbf.png" alt="" class="img-fluid" />
                 </div>
             </div>
