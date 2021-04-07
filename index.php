@@ -627,7 +627,7 @@ $isMobile = isMobile();
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" style="background-color: #004ea2;">
+            <div class="modal-body table-responsive" style="background-color: #004ea2;">
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
@@ -744,7 +744,7 @@ $isMobile = isMobile();
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" style="background-color: #004ea2;">
+            <div class="modal-body table-responsive" style="background-color: #004ea2;">
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
@@ -861,7 +861,7 @@ $isMobile = isMobile();
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" style="background-color: #004ea2;">
+            <div class="modal-body table-responsive" style="background-color: #004ea2;">
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
