@@ -15,6 +15,9 @@ function actionMuaNgay(maGoi) {
     selectGoi.val(maGoi)
     // $(document).scrollTo('#contact');
     $('#contact')[0].scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    $('#modal-FF1').modal('hide');
+    $('#modal-FF2').modal('hide');
+    $('#modal-FF3').modal('hide');
 }
 
 function actionClickImg(idDiv) {
@@ -43,12 +46,12 @@ $('#btn-tra-cuu').on('click', '', (e) => {
            if (res.data.type === 'FF1') {
                $('#modal-FF1').modal('toggle');
            } else if (res.data.type === 'FF2') {
-               $('#modal-FF2').modal('toggle');
+               $('#modal-FF2').modal('show');
            } else {
-               $('#modal-FF3').modal('toggle');
+               $('#modal-FF3').modal('show');
            }
         } else {
-            $('#modal-FF3').modal('toggle');
+            $('#modal-FF3').modal('show');
         }
     })
 })
