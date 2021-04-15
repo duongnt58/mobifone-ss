@@ -497,10 +497,20 @@ $isMobile = isMobile();
                             <!-- <label for="exampleInputEmail1">Email address</label> -->
                             <select class="form-control" id="selectGoiCuoc" name="goi_cuoc">
                                 <option value="0">Chọn gói cước</option>
-                                <option value="Gói cước trải nghiệm">Gói cước trải nghiệm</option>
-                                <option value="Gói cước data smartphone">Gói cước data smartphone</option>
-                                <option value="Gói cước combo smartphone 1">Gói cước combo smartphone 1</option>
-                                <option value="Gói cước combo smartphone 2">Gói cước combo smartphone 2</option>
+<!--                                <option value="Gói cước trải nghiệm">Gói cước trải nghiệm</option>-->
+<!--                                <option value="Gói cước data smartphone">Gói cước data smartphone</option>-->
+<!--                                <option value="Gói cước combo smartphone 1">Gói cước combo smartphone 1</option>-->
+<!--                                <option value="Gói cước combo smartphone 2">Gói cước combo smartphone 2</option>-->
+                                <option value="TNSP">TNSP</option>
+                                <option value="SP50KH">SP50KH</option>
+                                <option value="SP120KH">SP120KH</option>
+                                <option value="SP200KH">SP200KH</option>
+                                <option value="MF50KH">MF50KH</option>
+                                <option value="MF120KH">MF120KH</option>
+                                <option value="MF200KH">MF200KH</option>
+                                <option value="MF200KH">SP50</option>
+                                <option value="MF200KH">SP120</option>
+                                <option value="MF200KH">SP200</option>
                             </select>
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                         </div>
@@ -621,13 +631,17 @@ $isMobile = isMobile();
 <div class="modal fade bd-example-modal-lg" id="modal-FF1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">MUA MÁY KÈM GÓI CƯỚC ƯU ĐÃI</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+<!--            <div class="modal-header">-->
+<!--                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">GÓI CƯỚC ƯU ĐÃI</h4>-->
+<!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                    <span aria-hidden="true">&times;</span>-->
+<!--                </button>-->
+<!--            </div>-->
             <div class="modal-body table-responsive" style="background-color: #004ea2;">
+                <div style="margin-bottom: 5px">
+                    <h3 style="color: #fff">LỰA CHỌN GÓI CƯỚC CAM KẾT ĐĂNG KÝ</h3>
+                    <a href="" style="color: #fff" data-toggle="modal" data-target="#modal-full-goi-cuoc">(Click vào đây để xem chi tiết gói cước)</a>
+                </div>
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
@@ -639,86 +653,101 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">STT</th>
-                        <th scope="col">Tên gói</th>
-                        <th scope="col">Mã gói</th>
-                        <th scope="col">Giá gói</th>
-                        <th scope="col">Dung lượng gói</th>
-                        <th scope="col">Giá bán lẻ</th>
-                        <th scope="col">Giá kèm gói cước</th>
-                        <th scope="col">Đăng ký</th>
+                        <th scope="col">Gói</th>
+                        <th scope="col">SP50KH</th>
+                        <th scope="col">SP120KH</th>
+                        <th scope="col">SP200KH</th>
+                        <th scope="col">MF50KH</th>
+                        <th scope="col">MF120KH</th>
+                        <th scope="col">MF200KH</th>
+                        <th scope="col">SP50</th>
+                        <th scope="col">SP120</th>
+                        <th scope="col">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước trải nghiệm</td>
-                        <td>TNSP</td>
-                        <td>0</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.290.000</td>
+                        <td>Giá bán máy</td>
+                        <td>1,290,000</td>
+                        <td>1,290,000</td>
+                        <td>1,290,000</td>
+                        <td>1,290,000</td>
+                        <td>1,290,000</td>
+                        <td>1,290,000</td>
+                        <td>1,790,000</td>
+                        <td>1,790,000</td>
+                        <td>1,790,000</td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước trải nghiệm')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50KH')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Gói cước data smartphone</td>
-                        <td>SP50, SP50KH , MF50KH</td>
-                        <td>50.000</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.290.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước data smartphone')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120KH')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Gói cước combo smartphone 1</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>120.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
-                            ngoại mạng + Data: 1GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.290.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 1')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200KH')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước combo smartphone 2</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>200.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
-                            ngoại mạng + Data: 2GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.290.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 2')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF50KH')"
+                            >
+                                Mua ngay
+                            </button>
+                        </td>
+                        <td>
+                            <button
+                                    type="button"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF120KH')"
+                            >
+                                Mua ngay
+                            </button>
+                        </td>
+                        <td>
+                            <button
+                                    type="button"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF200KH')"
+                            >
+                                Mua ngay
+                            </button>
+                        </td>
+                        <td>
+                            <button
+                                    type="button"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
+                            >
+                                Mua ngay
+                            </button>
+                        </td>
+                        <td>
+                            <button
+                                    type="button"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
+                            >
+                                Mua ngay
+                            </button>
+                        </td>
+                        <td>
+                            <button
+                                    type="button"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
                             >
                                 Mua ngay
                             </button>
@@ -726,10 +755,11 @@ $isMobile = isMobile();
                     </tr>
                     </tbody>
                 </table>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-            </div>
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>-->
+<!--            </div>-->
         </div>
     </div>
 </div>
@@ -738,13 +768,17 @@ $isMobile = isMobile();
 <div class="modal fade bd-example-modal-lg" id="modal-FF2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">MUA MÁY KÈM GÓI CƯỚC ƯU ĐÃI</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+            <!--            <div class="modal-header">-->
+            <!--                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">GÓI CƯỚC ƯU ĐÃI</h4>-->
+            <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+            <!--                    <span aria-hidden="true">&times;</span>-->
+            <!--                </button>-->
+            <!--            </div>-->
             <div class="modal-body table-responsive" style="background-color: #004ea2;">
+                <div style="margin-bottom: 5px">
+                    <h3 style="color: #fff">LỰA CHỌN GÓI CƯỚC CAM KẾT ĐĂNG KÝ</h3>
+                    <a href="" style="color: #fff" data-toggle="modal" data-target="#modal-full-goi-cuoc">(Click vào đây để xem chi tiết gói cước)</a>
+                </div>
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
@@ -756,86 +790,41 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">STT</th>
-                        <th scope="col">Tên gói</th>
-                        <th scope="col">Mã gói</th>
-                        <th scope="col">Giá gói</th>
-                        <th scope="col">Dung lượng gói</th>
-                        <th scope="col">Giá bán lẻ</th>
-                        <th scope="col">Giá kèm gói cước</th>
-                        <th scope="col">Đăng ký</th>
+                        <th scope="col">Gói</th>
+                        <th scope="col">SP50</th>
+                        <th scope="col">SP120</th>
+                        <th scope="col">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước trải nghiệm</td>
-                        <td>TNSP</td>
-                        <td>0</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.790.000</td>
+                        <td>Giá bán máy</td>
+                        <td>1,790,000</td>
+                        <td>1,790,000</td>
+                        <td>1,790,000</td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước trải nghiệm')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Gói cước data smartphone</td>
-                        <td>SP50, SP50KH , MF50KH</td>
-                        <td>50.000</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.790.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước data smartphone')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Gói cước combo smartphone 1</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>120.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
-                            ngoại mạng + Data: 1GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.790.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 1')"
-                            >
-                                Mua ngay
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước combo smartphone 2</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>200.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
-                            ngoại mạng + Data: 2GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.790.000</td>
-                        <td>
-                            <button
-                                    type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 2')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
                             >
                                 Mua ngay
                             </button>
@@ -843,10 +832,11 @@ $isMobile = isMobile();
                     </tr>
                     </tbody>
                 </table>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-            </div>
+            <!--            <div class="modal-footer">-->
+            <!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>-->
+            <!--            </div>-->
         </div>
     </div>
 </div>
@@ -855,13 +845,17 @@ $isMobile = isMobile();
 <div class="modal fade bd-example-modal-lg" id="modal-FF3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">MUA MÁY KÈM GÓI CƯỚC ƯU ĐÃI</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+            <!--            <div class="modal-header">-->
+            <!--                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">GÓI CƯỚC ƯU ĐÃI</h4>-->
+            <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+            <!--                    <span aria-hidden="true">&times;</span>-->
+            <!--                </button>-->
+            <!--            </div>-->
             <div class="modal-body table-responsive" style="background-color: #004ea2;">
+                <div style="margin-bottom: 5px">
+                    <h3 style="color: #fff">LỰA CHỌN GÓI CƯỚC CAM KẾT ĐĂNG KÝ</h3>
+                    <a href="" style="color: #fff" data-toggle="modal" data-target="#modal-full-goi-cuoc">(Click vào đây để xem chi tiết gói cước)</a>
+                </div>
                 <table class="table table-bordered text-light">
                     <thead>
                     <tr
@@ -873,86 +867,41 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">STT</th>
-                        <th scope="col">Tên gói</th>
-                        <th scope="col">Mã gói</th>
-                        <th scope="col">Giá gói</th>
-                        <th scope="col">Dung lượng gói</th>
-                        <th scope="col">Giá bán lẻ</th>
-                        <th scope="col">Giá kèm gói cước</th>
-                        <th scope="col">Đăng ký</th>
+                        <th scope="col">Gói</th>
+                        <th scope="col">SP50</th>
+                        <th scope="col">SP120</th>
+                        <th scope="col">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước trải nghiệm</td>
-                        <td>TNSP</td>
-                        <td>0</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.990.000</td>
+                        <td>Giá bán máy</td>
+                        <td>1,990,000</td>
+                        <td>1,990,000</td>
+                        <td>1,990,000</td>
+                    </tr>
+                    <tr>
+                        <td></td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước trải nghiệm')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Gói cước data smartphone</td>
-                        <td>SP50, SP50KH , MF50KH</td>
-                        <td>50.000</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>2.290.000</td>
-                        <td>1.990.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước data smartphone')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Gói cước combo smartphone 1</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>120.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
-                            ngoại mạng + Data: 1GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.990.000</td>
                         <td>
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 1')"
-                            >
-                                Mua ngay
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước combo smartphone 2</td>
-                        <td>SP200, SP200KH , MF200KH</td>
-                        <td>200.000</td>
-                        <td>
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
-                            ngoại mạng + Data: 2GB/ngày
-                        </td>
-                        <td>2.290.000</td>
-                        <td>1.990.000</td>
-                        <td>
-                            <button
-                                    type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('Gói cước combo smartphone 2')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
                             >
                                 Mua ngay
                             </button>
@@ -960,10 +909,188 @@ $isMobile = isMobile();
                     </tr>
                     </tbody>
                 </table>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            <!--            <div class="modal-footer">-->
+            <!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>-->
+            <!--            </div>-->
+        </div>
+    </div>
+</div>
+<!--Chi tiết gói cước-->
+<div class="modal fade bd-example-modal-lg" id="modal-full-goi-cuoc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+<!--            <div class="modal-header">-->
+<!--                <h4 class="modal-title" id="exampleModalLabel" style="color: #004ea2;">MUA MÁY KÈM GÓI CƯỚC ƯU ĐÃI</h4>-->
+<!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                    <span aria-hidden="true">&times;</span>-->
+<!--                </button>-->
+<!--            </div>-->
+            <div class="modal-body table-responsive" style="background-color: #004ea2;">
+                <div style="margin-bottom: 5px">
+                    <h3 style="color: #fff">LỰA CHỌN GÓI CƯỚC CAM KẾT ĐĂNG KÝ</h3>
+                    <p>
+                        <br>
+                        Chú Thích :(*)ưu đãi hàng tháng
+
+                    </p>
+                    <p style="color: #c6b9b9">
+                        Điều kiện 1 : Khách hàng là thuê bao MobiFone đang sử dụng điện thoại feature phone (bao gồm TBTT và TBTS).
+                        <br>
+                        Điều kiện 2 : Khách hàng là thuê bao MobiFone đang sử dụng điện thoại feature phone; là TBTS MobiF.
+                    </p>
+                </div>
+                <table class="table table-bordered text-light">
+                    <thead>
+                    <tr
+                            style="
+                  background-image: linear-gradient(
+                    to right,
+                    rgb(228, 228, 0),
+                    rgb(253, 114, 0)
+                  );
+                "
+                    >
+                        <th scope="col">Tên gói cước (*)</th>
+                        <th scope="col">TNSP</th>
+                        <th scope="col">SP50KH</th>
+                        <th scope="col">SP120KH</th>
+                        <th scope="col">SP200KH</th>
+                        <th scope="col">MF50KH</th>
+                        <th scope="col">MF120KH</th>
+                        <th scope="col">MF200KH</th>
+                        <th scope="col">SP50</th>
+                        <th scope="col">SP120</th>
+                        <th scope="col">SP200</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Loại thuê bao</th>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                        <td>Thuê bao hiện hữu</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thoại nội mạng (*)</th>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>miễn phí dưới 20 phút</td>
+                        <td>miễn phí dưới 20 phút</td>
+                        <td>...</td>
+                        <td>miễn phí dưới 20 phút</td>
+                        <td>miễn phí dưới 20 phút</td>
+                        <td>...</td>
+                        <td>miễn phí dưới 20 phút</td>
+                        <td>miễn phí dưới 20 phút</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Thoại ngoài mạng (*)</th>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>50 phút</td>
+                        <td>100 phút</td>
+                        <td>...</td>
+                        <td>50 phút</td>
+                        <td>100 phút</td>
+                        <td>...</td>
+                        <td>50 phút</td>
+                        <td>100 phút</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Data (*)</th>
+                        <td>5Gb</td>
+                        <td>5Gb</td>
+                        <td>1Gb/ngày</td>
+                        <td>2Gb/ngày</td>
+                        <td>5Gb</td>
+                        <td>1Gb/ngày</td>
+                        <td>2Gb/ngày</td>
+                        <td>5Gb</td>
+                        <td>1Gb/ngày</td>
+                        <td>2Gb/ngày</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Giá gói cước/tháng (Chưa bao gồm cước thuê bao)</th>
+                        <td>Chu kỳ đầu: 0đ.<br>
+                            Chu kỳ tiếp theo: 50.000đ</td>
+                        <td>50.000đ</td>
+                        <td>120.000đ</td>
+                        <td>200.000</td>
+                        <td>50.000đ</td>
+                        <td>120.000đ</td>
+                        <td>200.000</td>
+                        <td>50.000đ</td>
+                        <td>120.000đ</td>
+                        <td>200.000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Số chu kỳ cam kết</th>
+                        <td>...</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                        <td>12 tháng</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Điều kiện</th>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 2</td>
+                        <td>Điều kiện 2</td>
+                        <td>Điều kiện 2</td>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 1</td>
+                        <td>Điều kiện 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cài đặt phần mềm KNOX</th>
+                        <td></td>
+                        <td>Có</td>
+                        <td>Có</td>
+                        <td>Có</td>
+                        <td>Có</td>
+                        <td>Có</td>
+                        <td>Có</td>
+                        <td>Không</td>
+                        <td>Không</td>
+                        <td>Không</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Đăng ký gói</th>
+                        <td>TNSP hoặc DK TNSP gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>Qua cửa hàng MobiFone</td>
+                        <td>Qua cửa hàng MobiFone</td>
+                        <td>Qua cửa hàng MobiFone</td>
+                        <td>SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td>SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
             </div>
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>-->
+<!--            </div>-->
         </div>
     </div>
 </div>
