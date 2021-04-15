@@ -63,7 +63,7 @@ $isMobile = isMobile();
 <body <?php if ($isOK) echo "onLoad=\"$('#exampleModal').modal('show');\""?> >
 <!-- Navigation -->
 <?php if ($isMobile === 1) { ?>
-    <ul class="nav nav-fill bg-blue">
+    <!-- <ul class="nav nav-fill bg-blue">
         <li class="nav-item">
             <a class="" href="#">
                 <img src="assets/img/logo-ss.png" alt="" class="img-logo-left" />
@@ -80,10 +80,40 @@ $isMobile = isMobile();
                 />
             </a>
         </li>
-    </ul>
+    </ul> -->
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg  bg-blue static-top navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-mbf.png" alt="" class="img-logo-right">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#gioi-thieu">Giới thiệu chương trình</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tra-cuu">Tra cứu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gioi-thieu-sp">Giới thiệu sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#uu-dai">Gói cước</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cau-hoi">Câu hỏi thường gặp</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <?php } else { ?>
 
-<div class="container ">
+<!-- <div class="container ">
     <div class="row bg-blue" style="margin-left: 0px; margin-right: 0px">
         <div class="col-4">
             <a class="" href="#">
@@ -102,8 +132,40 @@ $isMobile = isMobile();
             </a>
         </div>
     </div>
+</div> -->
+<div class="container">
+<nav class="navbar navbar-expand-lg  bg-blue static-top navbar-dark">
+  <!-- <div class="container"> -->
+    <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-mbf.png" alt="" class="img-logo-right">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#gioi-thieu">Giới thiệu chương trình</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tra-cuu">Tra cứu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gioi-thieu-sp">Giới thiệu sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#uu-dai">Gói cước</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cau-hoi">Câu hỏi thường gặp</a>
+        </li>
+      </ul>
+    </div>
+  <!-- </div> -->
+</nav>
 </div>
 <?php } ?>
+
 <!-- Page Content -->
 <div class="container">
     <div class="row">
@@ -191,7 +253,7 @@ $isMobile = isMobile();
                 nghiệm người dùng hoàn hảo hơn.
             </p>
         </div>
-        <div class="col-12">
+        <div class="col-12" id='gioi-thieu-sp'>
             <h2 class="text-center">Thiết Kế Hiện Đại, Nhỏ Gọn</h2>
         </div>
         <div class="col-12 col-md-6">
@@ -332,33 +394,36 @@ $isMobile = isMobile();
                 >
                     <th scope="col">STT</th>
                     <th scope="col">Tên gói</th>
+                    <th scope="col">Mã gói</th>
                     <th scope="col">Giá gói</th>
                     <th scope="col">Dung lượng gói</th>
                     <th scope="col">Giá bán lẻ</th>
-                    <th scope="col">Giá kèm gói cước</th>
+                    <th scope="col">Giá kèm gói cước<i>(Giá chỉ từ)</i></th>
                     <th scope="col">Đăng ký</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Gói cước trải nghiệm TN50</td>
+                    <td>Gói cước trải nghiệm</td>
+                    <td>TNSP</td>
                     <td>0</td>
                     <td>5GB, hết dung lượng ngắt kết nối</td>
-                    <td>2.290.000</td>
-                    <td>1.290.000</td>
+                    <td></td>
+                    <td></td>
                     <td>
-                        <button
+                        <!-- <button
                             type="button"
                             class="btn btn-warning text-danger font-weight-bold" onClick="window.location='#tra-cuu'"
                         >
                             Mua ngay
-                        </button>
+                        </button> -->
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Gói cước data FF50</td>
+                    <td>Gói cước data smartphone</td>
+                    <td>SP50, SP50KH, MF50KH</td>
                     <td>50.000</td>
                     <td>5GB, hết dung lượng ngắt kết nối</td>
                     <td>2.290.000</td>
@@ -374,7 +439,8 @@ $isMobile = isMobile();
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>Gói cước Combo 1 FF120</td>
+                    <td>Gói cước Combo smartphone 1 </td>
+                    <td>SP120, SP120KH, MF120KH</td>
                     <td>120.000</td>
                     <td>
                         + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
@@ -393,7 +459,8 @@ $isMobile = isMobile();
                 </tr>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Gói cước Combo 2 FF200</td>
+                    <td>Gói cước Combo smartphone 2</td>
+                    <td>SP200, SP200KH, MF200KH</td>
                     <td>200.000</td>
                     <td>
                         + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
@@ -414,70 +481,123 @@ $isMobile = isMobile();
             </table>
         </div>
     </div>
-    <div class="row faq">
+    <div class="row faq" id='cau-hoi'>
         <div class="col-12">
             <h3>Câu hỏi thường gặp</h3>
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    1. Đối tượng tham gia chương trình? <br />
-                    <br />
-                    Khách hàng là thuê bao MobiFone hiện chỉ đang sử dụng feature
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">1. Đối tượng tham gia chương trình?</a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse1">
+                                <div class="">
+                                Khách hàng là thuê bao MobiFone hiện chỉ đang sử dụng feature
                     phone. + Thuê bao đã hòa mạng trên 1 năm tại thời điểm mua máy. +
                     Chưa từng đăng ký sử dụng gói cước data tính đến thời điểm mua máy
                     (để loại các thuê bao trước đây sử dụng smartphone nay vừa mới đổi
                     sang featurephone).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    2. Cách để biết mình có thuộc đối tượng không? <br />
-                    <br />
-
-                    Anh Chị có thể tự tra cứu, hoặc tra cứu cho người thân tại mục
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapse2">2. Cách để biết mình có thuộc đối tượng không? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse2">
+                                <div class="">
+                                Anh Chị có thể tự tra cứu, hoặc tra cứu cho người thân tại mục
                     “Tra cứu” trên page; hoặc liên hệ hotline 9090 để được nhân viên
                     MobiFone tư vấn nhanh nhất.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    3.Mỗi khách hàng có thể mua được bao nhiêu máy : <br /><br />
-
-                    Mỗi khách hàng (CMTND/thẻ căn cước/hộ chiếu) được mua tối đa 01
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapse3"> 3.Mỗi khách hàng có thể mua được bao nhiêu máy? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse3">
+                                <div class="">
+                                Mỗi khách hàng (CMTND/thẻ căn cước/hộ chiếu) được mua tối đa 01
                     máy có trợ giá khuyến mại. + Khách hàng đăng ký và cam kết sử dụng
                     12 tháng gói cước FF50, FF120 hoặc FF200 tùy theo mức ARPU hiện
                     tại. Khách hàng không thực hiện cam kết sẽ bị khóa máy bằng phần
                     mềm Knox của Samsung.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    4. Tôi có thể tìm mua máy Samsung A01 Core 2Gb tại đâu?
-                    <br /><br />
-
-                    Khách hàng đủ điều kiện có thể tìm mua tại hệ thống cửa hàng trực
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="multiCollapse4"> 4. Tôi có thể tìm mua máy Samsung A01 Core 2Gb tại đâu? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse4">
+                                <div class="">
+                                Khách hàng đủ điều kiện có thể tìm mua tại hệ thống cửa hàng trực
                     tiếp của Mobifone trên toàn quốc, qua tư vấn viên Mobifone, tổng
                     đài 9090 hoặc đặt hàng tại page : shop.mobifone.vn
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    5. Tôi có thể đặt mua máy cho người khác được không? <br /><br />
-
-                    Anh Chị có thể tra cứu số điện thoại bạn bè, người thân, sau đó
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse5" role="button" aria-expanded="false" aria-controls="multiCollapse5"> 5. Tôi có thể đặt mua máy cho người khác được không? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse5">
+                                <div class="">
+                                Anh Chị có thể tra cứu số điện thoại bạn bè, người thân, sau đó
                     đặt hàng và thanh toán nếu số điện thoại người đó đủ điều kiện
                     tham gia chương trình ạ.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="content-faq">
-                    6. Điện thoại Samsung A01Core 2Gb mua qua chương trình trợ giá của
-                    Samsung có được bảo hành bao lâu? <br /><br />
-
-                    Sản phẩm được bảo hành chính hãng 12 tháng tại tất cả các TTBH
+                    <p>
+                        <a class="" data-toggle="collapse" href="#multiCollapse6" role="button" aria-expanded="false" aria-controls="multiCollapse6">  6. Điện thoại Samsung A01Core 2Gb mua qua chương trình trợ giá của
+                    Samsung có được bảo hành bao lâu? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse6">
+                                <div class="">
+                                Sản phẩm được bảo hành chính hãng 12 tháng tại tất cả các TTBH
                     toàn quốc của Samsung Ngoài ra, khách hàng có thể liên hệ 9090
                     hoặc cửa hàng trực tiếp MobiFone gần nhất để được hỗ trợ.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -508,9 +628,9 @@ $isMobile = isMobile();
                                 <option value="MF50KH">MF50KH</option>
                                 <option value="MF120KH">MF120KH</option>
                                 <option value="MF200KH">MF200KH</option>
-                                <option value="MF200KH">SP50</option>
-                                <option value="MF200KH">SP120</option>
-                                <option value="MF200KH">SP200</option>
+                                <option value="SP50">SP50</option>
+                                <option value="SP120">SP120</option>
+                                <option value="SP200">SP200</option>
                             </select>
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                         </div>

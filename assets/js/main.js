@@ -2,7 +2,7 @@ $( document ).ready(function() {
     
 });
 
-console.log( "ready!" );
+// console.log( "ready!" );
 var listGoi = [
     'GÓI CƯỚC ĐÃ CHỌN',
     'TN50',
