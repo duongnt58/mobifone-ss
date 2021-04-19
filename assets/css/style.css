@@ -51,7 +51,7 @@ body {
 .cover-header-background-color {
   width: 100%;
   /* height: 1160px; */
-  background-color: #1f1e23;
+  background-color: #fbfcfe;
   opacity: 0.49;
   display: block;
   padding: 25px 30px;
@@ -70,7 +70,7 @@ body {
 
 .title-header-1 {
   /* Style for "Smartphone" */
-  color: #fefdfd;
+  color: #1c58a9;
   /* font-family: "VIE - Handel Gothic"; */
   font-size: 23px;
   font-weight: bold;
@@ -89,7 +89,7 @@ body {
 .title-header-2 {
   /* Text style for "samsung 4g" */
   font-size: 28px;
-  color: #fefdfd;
+  color: #1c58a9;
   /* font-family: "VIE - Handel Gothic"; */
   font-weight: bold;
   font-style: normal;
@@ -102,7 +102,7 @@ body {
 
 .title-header-3 {
   /* Style for "Chỉ còn" */
-  color: #fefdfd;
+  color: #1c58a9;
   /* font-family: "VIE - Handel Gothic"; */
   font-size: 15px;
   font-weight: bold;
@@ -116,7 +116,7 @@ body {
 }
 
 .title-header-4 {
-  color: #fefdfd;
+  color: #1c58a9;
   /* font-family: "VIE - Handel Gothic"; */
   font-weight: bold;
   font-style: normal;
@@ -136,7 +136,7 @@ body {
   /* Style for "(*)" */
   /* width: 46px;
     height: 35px; */
-  color: #fefdfd;
+  color: #1c58a9;
   /* font-family: "VIE - Handel Gothic Medium"; */
   font-size: 41px;
   font-weight: bold;
@@ -284,7 +284,7 @@ body {
     height: 86px; */
   color: #0d0d0d;
   /* font-family: "VIE - Handel Gothic Medium"; */
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
@@ -494,7 +494,7 @@ height: 98px; */
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 20px 20px;
   margin: 10px 25px;
   /*! min-height: 225px; */
@@ -633,7 +633,7 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #1f1e23;
+    background-color: #fbfcfe;
     opacity: 0.49;
     display: block;
     padding-top: 150px;
@@ -653,7 +653,7 @@ height: 98px; */
 
   .title-header-1 {
     /* Style for "Smartphone" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 54px;
     font-weight: bold;
@@ -672,7 +672,7 @@ height: 98px; */
   .title-header-2 {
     /* Text style for "samsung 4g" */
     font-size: 81px;
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-weight: bold;
     font-style: normal;
@@ -685,7 +685,7 @@ height: 98px; */
 
   .title-header-3 {
     /* Style for "Chỉ còn" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 29px;
     font-weight: bold;
@@ -705,7 +705,7 @@ height: 98px; */
     /* Style for "1.290.000" */
     /* width: 586px;
         height: 79px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 115px;
     font-weight: bold;
@@ -729,7 +729,7 @@ height: 98px; */
     /* Style for "(*)" */
     /* width: 46px;
         height: 35px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic Medium"; */
     font-size: 41px;
     font-weight: bold;
@@ -1077,7 +1077,7 @@ height: 98px; */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 20px 20px;
     margin: 12px;
     min-height: 225px;
@@ -1217,7 +1217,7 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #1f1e23;
+    background-color: #fbfcfe;
     opacity: 0.49;
     display: block;
     padding-top: 150px;
@@ -1237,7 +1237,7 @@ height: 98px; */
 
   .title-header-1 {
     /* Style for "Smartphone" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 54px;
     font-weight: bold;
@@ -1256,7 +1256,7 @@ height: 98px; */
   .title-header-2 {
     /* Text style for "samsung 4g" */
     font-size: 81px;
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-weight: bold;
     font-style: normal;
@@ -1269,7 +1269,7 @@ height: 98px; */
 
   .title-header-3 {
     /* Style for "Chỉ còn" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 29px;
     font-weight: bold;
@@ -1289,7 +1289,7 @@ height: 98px; */
     /* Style for "1.290.000" */
     /* width: 586px;
         height: 79px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 115px;
     font-weight: bold;
@@ -1313,7 +1313,7 @@ height: 98px; */
     /* Style for "(*)" */
     /* width: 46px;
         height: 35px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic Medium"; */
     font-size: 41px;
     font-weight: bold;
@@ -1663,7 +1663,7 @@ height: 98px; */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 20px 20px;
     margin: 12px;
     min-height: 225px;
@@ -1800,7 +1800,7 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #1f1e23;
+    background-color: #fbfcfe;
     opacity: 0.7;
     display: block;
     padding-top: 130px;
@@ -1820,7 +1820,7 @@ height: 98px; */
 
   .title-header-1 {
     /* Style for "Smartphone" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 45px;
     font-weight: bold;
@@ -1839,7 +1839,7 @@ height: 98px; */
   .title-header-2 {
     /* Text style for "samsung 4g" */
     font-size: 64px;
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-weight: bold;
     font-style: normal;
@@ -1852,7 +1852,7 @@ height: 98px; */
 
   .title-header-3 {
     /* Style for "Chỉ còn" */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 25px;
     font-weight: bold;
@@ -1872,7 +1872,7 @@ height: 98px; */
     /* Style for "1.290.000" */
     /* width: 586px;
         height: 79px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic"; */
     font-size: 115px;
     font-weight: bold;
@@ -1896,7 +1896,7 @@ height: 98px; */
     /* Style for "(*)" */
     /* width: 46px;
         height: 35px; */
-    color: #fefdfd;
+    color: #1c58a9;
     /* font-family: "VIE - Handel Gothic Medium"; */
     font-size: 41px;
     font-weight: bold;
@@ -2043,7 +2043,7 @@ height: 98px; */
         height: 86px; */
     color: #0d0d0d;
     /* font-family: "VIE - Handel Gothic Medium"; */
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
@@ -2212,6 +2212,8 @@ height: 98px; */
     background-position: center;
     margin-bottom: 80px;
     background-position-x: -214px;
+    padding-top: 50px;
+
   }
   .faq h3 {
     /* Style for "Câu hỏi th" */
@@ -2251,7 +2253,7 @@ height: 98px; */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 20px 20px;
     margin: 12px 20px;
     min-height: 97px;

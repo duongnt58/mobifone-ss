@@ -44,14 +44,28 @@ $('#btn-tra-cuu').on('click', '', (e) => {
     }).done((res) => {
         if (res.success) {
            if (res.data.type === 'FF1') {
+               let packAs = res.pack;
+               let listPack = ['SP50KH', 'SP120KH', 'SP200KH', 'MF50KH', 'MF120KH', 'MF200KH', 'SP50', 'SP120', 'SP200'];
+               listPack.forEach((pack) => {
+                   if(packAs.indexOf(pack) === -1) {
+                       $('.FF1-' + pack).remove();
+                   }
+               })
                $('#modal-FF1').modal('toggle');
            } else if (res.data.type === 'FF2') {
-               $('#modal-FF2').modal('show');
+               let packAs = res.pack;
+               let listPack = ['SP50', 'SP120', 'SP200'];
+               listPack.forEach((pack) => {
+                   if(packAs.indexOf(pack) === -1) {
+                       $('.FF2-' + pack).remove();
+                   }
+               })
+               $('#modal-FF2').modal('toggle');
            } else {
-               $('#modal-FF3').modal('show');
+               $('#modal-FF3').modal('toggle');
            }
         } else {
-            $('#modal-FF3').modal('show');
+            $('#modal-FF3').modal('toggle');
         }
     })
 })

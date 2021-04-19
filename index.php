@@ -187,7 +187,7 @@ $isMobile = isMobile();
                 <img src="assets/img/img-ss-core.png" alt="" class="img-fluid" />
                 <div class="title-ss-core">
                     <h3>Samsung Galaxy</h3>
-                    <h3>A01 CORE 2BG</h3>
+                    <h3>A01 CORE 2GB</h3>
                 </div>
                 <div class="price-ss-core">
                     <h3>2.290.000 <sup>(*)</sup></h3>
@@ -236,11 +236,7 @@ $isMobile = isMobile();
         <div class="col-12" id="gioi-thieu">
             <h3 class="">giới thiệu chương trình:</h3>
             <p class="text-justify">
-                Theo định hướng của Chính phủ đển năm 2030 phổ cập mạng di động
-                4G/5G và điện thoại thông minh(Smartphone) đến từng người dân Việt
-                Nam. MobiFone hợp tác cùng Samsung triển khai chương trình nâng cấp
-                điện thoại Samsung Galaxy A01 Core giá 2.290.000đ kèm gói cước cho
-                các thuê bao MobiFone với giá siêu ưu đãi nay chỉ còn 1.290.000đ.
+                Với sứ mệnh là nhà cung cấp hạ tầng số và dịch vụ số hàng đầu Việt Nam, giúp mọi người dân Việt Nam đều được tiếp cận công nghệ một cách <b>THẦN TỐC</b>, góp phần <b>ĐỔI MỚI</b> đất nước thành một nước công nghệ số, MobiFone hợp tác cùng Samsung triển khai chương trình nâng cấp điện thoại Samsung Galaxy A01 Core 2Gb giá 2.290.000đ kèm gói cước cho các thuê bao MobiFone giá siêu ưu đãi chỉ 1.290.000đ. MobiFone tự tin với sự <b>HIỆU QUẢ</b> và <b>CHUYÊN NGHIỆP</b> trong suốt quá trình 28 năm phát triển của mình, mọi người dân Việt Nam đều được sử dụng smartphone 4G với giá bình dân nhất để không một ai bị bỏ lại phía sau trong sự phát triển <b>THẦN TỐC</b> của công nghệ.
             </p>
         </div>
         <div class="col-8 offset-4">
@@ -392,14 +388,14 @@ $isMobile = isMobile();
                   );
                 "
                 >
-                    <th scope="col">STT</th>
-                    <th scope="col">Tên gói</th>
-                    <th scope="col">Mã gói</th>
-                    <th scope="col">Giá gói</th>
-                    <th scope="col">Dung lượng gói</th>
-                    <th scope="col">Giá bán lẻ</th>
-                    <th scope="col">Giá kèm gói cước<i>(Giá chỉ từ)</i></th>
-                    <th scope="col">Đăng ký</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Tên gói</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Mã gói</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Giá gói</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Dung lượng gói</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Giá bán lẻ</th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;">Giá kèm gói cước<i>(Giá chỉ từ)</i></th>
+                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Đăng ký</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -458,7 +454,7 @@ $isMobile = isMobile();
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">4</th>
                     <td>Gói cước Combo smartphone 2</td>
                     <td>SP200, SP200KH, MF200KH</td>
                     <td>200.000</td>
@@ -489,17 +485,13 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">1. Đối tượng tham gia chương trình?</a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">1. ĐỐI TƯỢNG THAM GIA CHƯƠNG TRÌNH?</a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse1">
                                 <div class="">
-                                Khách hàng là thuê bao MobiFone hiện chỉ đang sử dụng feature
-                    phone. + Thuê bao đã hòa mạng trên 1 năm tại thời điểm mua máy. +
-                    Chưa từng đăng ký sử dụng gói cước data tính đến thời điểm mua máy
-                    (để loại các thuê bao trước đây sử dụng smartphone nay vừa mới đổi
-                    sang featurephone).
+                                    Thuê bao MobiFone đang sử dụng điện thoại feature phone và đứng tên chủ thuê bao sẽ được tham gia chương trình này
                                 </div>
                             </div>
                         </div>
@@ -510,15 +502,28 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapse2">2. Cách để biết mình có thuộc đối tượng không? </a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapse2">2. ĐỐI TƯỢNG NÀO ĐƯỢC THAM GIA MUA MÁY GIÁ 1.290.000 đ </a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse2">
                                 <div class="">
-                                Anh Chị có thể tự tra cứu, hoặc tra cứu cho người thân tại mục
-                    “Tra cứu” trên page; hoặc liên hệ hotline 9090 để được nhân viên
-                    MobiFone tư vấn nhanh nhất.
+                                    Các khách hàng thỏa điều kiện sau đây sẽ được mua máy Samsung A01 core 2Gb giá 1.290.000 đ<br/>
+                                    a. Thuê bao trả sau MobiFone đang sử dụng điện thoại feature phone (bao gồm thuê
+                                    bao trả trước chuyển trả sau và thuê bao trả sau MobiF),<br/>
+                                    b. Đã hòa mạng MobiFone trên 01 năm tại thời điểm lấy dữ liệu,<br/>
+                                    c. Không sử dụng các gói cước data của MobiFone trong vòng 06 tháng tính tới thời
+                                    điểm lấy dữ liệu,<br/>
+                                    d. ARPU/tháng (bao gồm VAT) trong 03 tháng gần nhất tính tới thời điểm lấy dữ
+                                    liệu đều lớn hơn 5.000 đồng/tháng; và:<br/>
+                                    e. Khách hàng đứng tên chính chủ thuê bao,<br/>
+                                    f. Mỗi khách hàng (CMTND/thẻ căn cước/hộ chiếu) được mua tối đa 01 máy A01
+                                    Core 2Gb với giá ưu đãi 1.290.000 đồng/máy,<br/>
+                                    g. Đăng ký và cam kết sử dụng 12 tháng một trong các gói cước SP50KH, SP120KH,
+                                    SP200KH, MF50KH, MF120KH, MF200KH<br/>
+                                    h. Đồng ý cho MobiFone cài đặt phần mềm khóa máy Knox và thực hiện khóa máy
+                                    nếu thuê bao vi phạm cam kết phải sử dụng và thanh toán cước đầy đủ trong 12
+                                    tháng sử dụng gói cước cam kết.<br/>
                                 </div>
                             </div>
                         </div>
@@ -528,17 +533,18 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapse3"> 3.Mỗi khách hàng có thể mua được bao nhiêu máy? </a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapse3"> 3. ĐỐI TƯỢNG NÀO ĐƯỢC THAM GIA MUA MÁY GIÁ 1.790.000 đ </a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse3">
                                 <div class="">
-                                Mỗi khách hàng (CMTND/thẻ căn cước/hộ chiếu) được mua tối đa 01
-                    máy có trợ giá khuyến mại. + Khách hàng đăng ký và cam kết sử dụng
-                    12 tháng gói cước FF50, FF120 hoặc FF200 tùy theo mức ARPU hiện
-                    tại. Khách hàng không thực hiện cam kết sẽ bị khóa máy bằng phần
-                    mềm Knox của Samsung.
+                                    Các khách hàng thỏa các điều kiện sau đây sẽ được mua máy với giá 1.790.000 đ<br/>
+                                    a. Thuê bao MobiFone đang sử dụng điện thoại feature phone (bao gồm thuê bao trả
+                                    trước và thuê bao trả sau)<br/>
+                                    b. Không thuộc tập thuê bao (1), và:<br/>
+                                    c. Khách hàng đứng tên chính chủ thuê bao,<br/>
+                                    d. Đăng ký sử dụng một trong các gói cước TNSP, SP50, SP120, SP200
                                 </div>
                             </div>
                         </div>
@@ -548,15 +554,13 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="multiCollapse4"> 4. Tôi có thể tìm mua máy Samsung A01 Core 2Gb tại đâu? </a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="multiCollapse4"> 4. ĐỐI TƯỢNG NÀO ĐƯỢC THAM GIA MUA MÁY GIÁ 1.990.000 đ </a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse4">
                                 <div class="">
-                                Khách hàng đủ điều kiện có thể tìm mua tại hệ thống cửa hàng trực
-                    tiếp của Mobifone trên toàn quốc, qua tư vấn viên Mobifone, tổng
-                    đài 9090 hoặc đặt hàng tại page : shop.mobifone.vn
+                                    Tất cả thuê bao MobiFone không thuộc 2 đối tượng trên thì được mua máy giá 1.990.000 đ
                                 </div>
                             </div>
                         </div>
@@ -566,15 +570,13 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse5" role="button" aria-expanded="false" aria-controls="multiCollapse5"> 5. Tôi có thể đặt mua máy cho người khác được không? </a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse5" role="button" aria-expanded="false" aria-controls="multiCollapse5"> 5. Cách để biết mình tham gia đối tượng ưu đãi ? </a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse5">
                                 <div class="">
-                                Anh Chị có thể tra cứu số điện thoại bạn bè, người thân, sau đó
-                    đặt hàng và thanh toán nếu số điện thoại người đó đủ điều kiện
-                    tham gia chương trình ạ.
+                                    Anh chị có thể tự tra cứu, hoặc tra cứu cho người thân tại website : www.mobifone.vn/smartphone. Dùng tin nhắn nhắn tin theo cú pháp [Số điện thoại] gửi đến tổng đài 9129 hoặc liên hệ tổng đài số 9090 để biết được thông tin nhanh nhất
                                 </div>
                             </div>
                         </div>
@@ -584,16 +586,77 @@ $isMobile = isMobile();
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class="" data-toggle="collapse" href="#multiCollapse6" role="button" aria-expanded="false" aria-controls="multiCollapse6">  6. Điện thoại Samsung A01Core 2Gb mua qua chương trình trợ giá của
-                    Samsung có được bảo hành bao lâu? </a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse6" role="button" aria-expanded="false" aria-controls="multiCollapse6">  6. Nếu khách hàng thuộc các đối tượng trên nhưng không muốn mua máy điện thoại thì được ưu đãi gì không? </a>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapse6">
                                 <div class="">
-                                Sản phẩm được bảo hành chính hãng 12 tháng tại tất cả các TTBH
-                    toàn quốc của Samsung Ngoài ra, khách hàng có thể liên hệ 9090
-                    hoặc cửa hàng trực tiếp MobiFone gần nhất để được hỗ trợ.
+                                    Nếu khách hàng thuộc các đối tượng trên nhưng không muốn mua máy điện thoại, Mobifone sẽ tặng cho một gói cước 4G với 5Gb data trong 30 ngày tốc độ cao để trải nghiệm 4G của Mobifone.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="content-faq">
+                    <p>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse7" role="button" aria-expanded="false" aria-controls="multiCollapse7">  7. MỖI KHÁCH HÀNG CÓ THỂ MUA ĐƯỢC BAO NHIÊU MÁY? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse7">
+                                <div class="">
+                                    Mỗi Khách Hàng (Cmtnd/Thẻ Căn Cước/Hộ Chiếu) Được Mua Tối Đa 01 Máy Có Trợ Giá Khuyến Mại. + Khách Hàng Đăng Ký Và Cam Kết Sử Dụng 12 Tháng Với Giá Máy 1.290.000 Sẽ Được Cài Phần Mềm Khóa Máy Knox Của Samsung. Khi Khách Hàng Không Thực Hiện Cam Kết Sẽ Bị Khóa Máy Bằng Phần Mềm Knox Của Samsung.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="content-faq">
+                    <p>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse8" role="button" aria-expanded="false" aria-controls="multiCollapse8">  8. MÁY SAMSUNG A01 CORE CỦA MOBIFONE KHÁC GÌ SO VỚI PHIÊN BẢN CỦA THỊ TRƯỜNG? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse8">
+                                <div class="">
+                                    Máy Samsung A01 Core của Mobifone là phiên bản độc quyền Samsung dành cho Mobifone để triển khai chương trình đổi máy với bộ nhớ RAM 2Gb, giúp máy mạnh mẽ hơn, khách hàng có thể trải nghiệm tốt và mượt mà hơn
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="content-faq">
+                    <p>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse9" role="button" aria-expanded="false" aria-controls="multiCollapse9">  9. MÁY SAMSUNG A01 CORE 2GB ĐƯỢC BẢO HÀNH BAO LÂU? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse9">
+                                <div class="">
+                                    Sản Phẩm Được Bảo Hành Chính Hãng 12 Tháng Tại Tất Cả Các TTBH Toàn Quốc Của Samsung Ngoài Ra, Khách Hàng Có Thể Liên Hệ 9090 Hoặc Cửa Hàng Trực Tiếp Mobifone Gần Nhất Để Được Hỗ Trợ.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="content-faq">
+                    <p>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse10" role="button" aria-expanded="false" aria-controls="multiCollapse10">  10. TÔI CÓ THỂ TÌM MUA MÁY SAMSUNG A01 CORE 2GB TẠI ĐÂU? </a>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapse10">
+                                <div class="">
+                                    Khách Hàng Đủ Điều Kiện Có Thể Tìm Mua Tại Hệ Thống Cửa Hàng Trực Tiếp Của Mobifone Trên Toàn Quốc, Qua Tư Vấn Viên Mobifone, Tổng Đài 9090 Hoặc Đặt Hàng Tại Page : www.Mobifone.vn/Smartphone
                                 </div>
                             </div>
                         </div>
@@ -773,34 +836,38 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Gói</th>
-                        <th scope="col">SP50KH</th>
-                        <th scope="col">SP120KH</th>
-                        <th scope="col">SP200KH</th>
-                        <th scope="col">MF50KH</th>
-                        <th scope="col">MF120KH</th>
-                        <th scope="col">MF200KH</th>
-                        <th scope="col">SP50</th>
-                        <th scope="col">SP120</th>
-                        <th scope="col">SP200</th>
+                        <th scope="col">Tên gói</th>
+                        <th scope="col" class="FF1-SP50KH">SP50KH</th>
+                        <th scope="col" class="FF1-SP120KH">SP120KH</th>
+                        <th scope="col" class="FF1-SP200KH">SP200KH</th>
+                        <th scope="col" class="FF1-MF50KH">MF50KH</th>
+                        <th scope="col" class="FF1-MF120KH">MF120KH</th>
+                        <th scope="col" class="FF1-MF200KH">MF200KH</th>
+                        <th scope="col" class="FF1-SP50">SP50</th>
+                        <th scope="col" class="FF1-SP120">SP120</th>
+                        <th scope="col" class="FF1-SP200">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán máy</td>
-                        <td>1,290,000</td>
-                        <td>1,290,000</td>
-                        <td>1,290,000</td>
-                        <td>1,290,000</td>
-                        <td>1,290,000</td>
-                        <td>1,290,000</td>
-                        <td>1,790,000</td>
-                        <td>1,790,000</td>
-                        <td>1,790,000</td>
+                        <td>Giá bán</td>
+                        <td class="FF1-SP50KH">1,290,000</td>
+                        <td class="FF1-SP120KH">1,290,000</td>
+                        <td class="FF1-SP200KH">1,290,000</td>
+                        <td class="FF1-MF50KH">1,290,000</td>
+                        <td class="FF1-MF120KH">1,290,000</td>
+                        <td class="FF1-MF200KH">1,290,000</td>
+                        <td class="FF1-SP50">1,790,000</td>
+                        <td class="FF1-SP120">1,790,000</td>
+                        <td class="FF1-SP200">1,790,000</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td>
+                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold " onclick="actionMuaNgay('NULL')" disabled="" style="
+    visibility: hidden;
+">
+                                Mua ngay
+                            </button></td>
+                        <td class="FF1-SP50KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50KH')"
@@ -808,7 +875,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-SP120KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120KH')"
@@ -816,7 +883,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-SP200KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200KH')"
@@ -824,7 +891,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-MF50KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF50KH')"
@@ -832,7 +899,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-MF120KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF120KH')"
@@ -840,15 +907,15 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-MF120KH">
                             <button
                                     type="button"
-                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF200KH')"
+                                    class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF120KH')"
                             >
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-SP50">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
@@ -856,7 +923,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-SP120">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
@@ -864,7 +931,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF1-SP200">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
@@ -910,22 +977,26 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Gói</th>
-                        <th scope="col">SP50</th>
-                        <th scope="col">SP120</th>
-                        <th scope="col">SP200</th>
+                        <th scope="col">Tên gói</th>
+                        <th scope="col" class="FF2-SP50">SP50</th>
+                        <th scope="col" class="FF2-SP120">SP120</th>
+                        <th scope="col" class="FF2-SP200">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán máy</td>
-                        <td>1,790,000</td>
-                        <td>1,790,000</td>
-                        <td>1,790,000</td>
+                        <td>Giá bán</td>
+                        <td class="FF2-SP50">1,790,000</td>
+                        <td class="FF2-SP120">1,790,000</td>
+                        <td class="FF2-SP200">1,790,000</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td>
+                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
+    visibility: hidden;
+">
+                                Mua ngay
+                            </button></td>
+                        <td class="FF2-SP50">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
@@ -933,7 +1004,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF2-SP120">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
@@ -941,7 +1012,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="FF2-SP200">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
@@ -987,7 +1058,7 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Gói</th>
+                        <th scope="col">Tên gói</th>
                         <th scope="col">SP50</th>
                         <th scope="col">SP120</th>
                         <th scope="col">SP200</th>
@@ -995,13 +1066,17 @@ $isMobile = isMobile();
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán máy</td>
+                        <td>Giá bán</td>
                         <td>1,990,000</td>
                         <td>1,990,000</td>
                         <td>1,990,000</td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
+    visibility: hidden;
+">
+                                Mua ngay
+                            </button></td>
                         <td>
                             <button
                                     type="button"
