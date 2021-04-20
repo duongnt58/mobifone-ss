@@ -47,7 +47,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $listPackAss = [];
 
                 foreach ($listPack as $pack) {
-                    $tbl = strtolower($pack);
+//                    $tbl = strtolower($pack);
+                    $tbl = $pack;
                     $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
                     $stmt = $conn->prepare($sql);
                     $stmt->bindParam(':msisdn', $msisdn);
@@ -68,7 +69,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $listPack = ['SP50', 'SP120', 'SP200'];
                 $listPackAss = [];
                 foreach ($listPack as $pack) {
-                    $tbl = strtolower($pack);
+//                    $tbl = strtolower($pack);
+                    $tbl = $pack;
                     $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
                     $stmt = $conn->prepare($sql);
                     $stmt->bindParam(':msisdn', $msisdn);
