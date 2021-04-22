@@ -44,28 +44,43 @@ $('#btn-tra-cuu').on('click', '', (e) => {
     }).done((res) => {
         if (res.success) {
            if (res.data.type === 'FF1') {
-               let packAs = res.pack;
-               let listPack = ['SP50KH', 'SP120KH', 'SP200KH', 'MF50KH', 'MF120KH', 'MF200KH', 'SP50', 'SP120', 'SP200'];
-               listPack.forEach((pack) => {
-                   if(packAs.indexOf(pack) === -1) {
-                       $('.FF1-' + pack).remove();
-                   }
-               })
-               $('#modal-FF1').modal('toggle');
+               // let packAs = res.pack;
+               // let listPack = ['SP50KH', 'SP120KH', 'SP200KH', 'MF50KH', 'MF120KH', 'MF200KH', 'SP50', 'SP120', 'SP200'];
+               // listPack.forEach((pack) => {
+               //     if(packAs.indexOf(pack) === -1) {
+               //         $('.FF1-' + pack).remove();
+               //     }
+               // })
+               // $('#modal-FF1').modal('toggle');
+               let textt = "Thuê bao " + msisdn + " thuộc tập thuê bao FF1, được mua máy Samsung A01 core 02 Gb với giá 1.290.000đ (giá gốc 2.290.000đ) nếu cam kết sử dụng gói cước của Mobifone."
+               let textt2 = "Thuê bao " + msisdn + " cần cam kết sử dụng 12 tháng một trong các gói cước sau: <br>"
+               + "+ Với thuê bao trả sau (SP50KH, SP120KH, SP200KH) <br>"
+               + "+ Với thuê bao trả sau MobiF (MF50KH, MF120KH, MF200KH)";
+               $('#content-ff').text(textt);
+               $('#content-fff').html(textt2);
+
            } else if (res.data.type === 'FF2') {
-               let packAs = res.pack;
-               let listPack = ['SP50', 'SP120', 'SP200'];
-               listPack.forEach((pack) => {
-                   if(packAs.indexOf(pack) === -1) {
-                       $('.FF2-' + pack).remove();
-                   }
-               })
-               $('#modal-FF2').modal('toggle');
-           } else {
-               $('#modal-FF3').modal('toggle');
+               // let packAs = res.pack;
+               // let listPack = ['SP50', 'SP120', 'SP200'];
+               // listPack.forEach((pack) => {
+               //     if(packAs.indexOf(pack) === -1) {
+               //         $('.FF2-' + pack).remove();
+               //     }
+               // })
+               // $('#modal-FF2').modal('toggle');
+               let textt = "Thuê bao " + msisdn + " thuộc tập thuê bao FF2, được mua máy Samsung A01 core 02 Gb với giá 1.790.000đ (giá gốc 2.290.000đ)."
+               let textt2 = "Thuê bao " + msisdn + " cần đăng ký 01 trong các gói cước sau: TNSP, SP50, SP120 hoặc SP200"
+               $('#content-ff').text(textt);
+               $('#content-fff').html(textt2);
            }
+            let textt = "Thuê bao " + msisdn + "thuộc tập thuê bao (3), được mua máy Samsung A01 core 02 Gb với giá 1.990.000đ (giá gốc 2.290.000đ)."
+            $('#modal-FF').modal('toggle');
+            // $('#modal-FF').modal('toggle');
         } else {
-            $('#modal-FF3').modal('toggle');
+            // $('#modal-FF3').modal('toggle');
+            // let textt = "Thuê bao " + msisdn + "thuộc tập thuê bao FF1, được mua máy Samsung A01 core 02 Gb với giá 1.290.000đ (giá gốc 2.290.000đ) nếu cam kết sử dụng gói cước của Mobifone"
+            // $('#content-ff').text(textt);
+
         }
     })
 })

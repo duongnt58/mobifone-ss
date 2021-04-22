@@ -51,8 +51,10 @@ body {
 .cover-header-background-color {
   width: 100%;
   /* height: 1160px; */
-  background-color: #fbfcfe;
-  opacity: 0.49;
+  /*background-color: #fbfcfe;*/
+  /*opacity: 0.49;*/
+  background-color: #ffffff00;
+  opacity: 1;
   display: block;
   padding: 25px 30px;
 }
@@ -633,8 +635,10 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #fbfcfe;
-    opacity: 0.49;
+    /*background-color: #fbfcfe;*/
+    /*opacity: 0.49;*/
+    background-color: #ffffff00;
+    opacity: 1;
     display: block;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -1217,8 +1221,10 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #fbfcfe;
-    opacity: 0.49;
+    /*background-color: #fbfcfe;*/
+    /*opacity: 0.49;*/
+    background-color: #ffffff00;
+    opacity: 1;
     display: block;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -1800,8 +1806,10 @@ height: 98px; */
   .cover-header-background-color {
     width: 100%;
     /* height: 1160px; */
-    background-color: #fbfcfe;
-    opacity: 0.7;
+    /*background-color: #fbfcfe;*/
+    /*opacity: 0.7;*/
+    background-color: #ffffff00;
+    opacity: 1;
     display: block;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -2015,7 +2023,9 @@ height: 98px; */
   .bg-middle {
     background-image: url(../img/bg-middle.png);
     background-position: left bottom;
-    padding: 40px 50px;
+    /*padding: 40px 50px;*/
+    padding: 65px 50px 0px 50px;
+    margin: 0px;
   }
 
   .bg-middle h3 {
