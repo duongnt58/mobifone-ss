@@ -72,9 +72,10 @@ $('#btn-tra-cuu').on('click', '', (e) => {
                let textt2 = "Thuê bao " + msisdn + " cần đăng ký 01 trong các gói cước sau: TNSP, SP50, SP120 hoặc SP200"
                $('#content-ff').text(textt);
                $('#content-fff').html(textt2);
+           } else {
+               $('#content-ff').text("");
+               $('#content-fff').html("");
            }
-            $('#content-ff').text("");
-            $('#content-fff').html("");
             $('#modal-FF').modal('toggle');
             // $('#modal-FF').modal('toggle');
         } else {
