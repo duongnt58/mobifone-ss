@@ -565,9 +565,9 @@ $isMobile = isMobile();
                     <th scope="row">2</th>
                     <td>FF2</td>
                     <td>1.790.000</td>
-                    <td style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone, đã hòa mạng trên 1 năm, chưa sử dụng các gói cước data của MobiFone.
+                    <td style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone (theo danh sách của MobiFone).
                         <br>
-                        - Khách hàng đứng tên chính chủ thuê bao. <br>
+                        - Khách hàng đứng tên chính chủ thuê bao khi mua máy. <br>
                         - Đăng ký sử dụng một trong các gói cước: TNSP, SP50, SP120, SP200.
                     </td>
                 </tr>
