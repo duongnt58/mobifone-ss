@@ -204,70 +204,70 @@ $isMobile = isMobile();
         <!--                nghiệm người dùng hoàn hảo hơn.-->
         <!--            </p>-->
         <!--        </div>-->
-        <div class="col-12" >
-            <h2 class="text-center">Thiết Kế Hiện Đại, Nhỏ Gọn</h2>
-        </div>
-        <div class="col-12 col-md-6">
-            <img src="assets/img/img-phone-ss.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-12 col-md-6">
-            <table class="table borderless">
-                <tbody style="line-height: 8px;">
-                <tr>
-                    <th scope="row">Tổng quan</th>
-                </tr>
-                <tr>
-                    <td>Loại điện thoại</td>
-                    <td>SmartPhone</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sim</th>
-                </tr>
-                <tr>
-                    <td>Loại sim</td>
-                    <td>Nano Sim</td>
-                </tr>
-                <tr>
-                    <td>Số sim</td>
-                    <td>Hai Sim</td>
-                </tr>
-                <tr>
-                    <th scope="row">Màn hình</th>
-                </tr>
-                <tr>
-                    <td>Kích thước màn hình</td>
-                    <td>5.3 inch</td>
-                </tr>
-                <tr>
-                    <td>Loại màn hình</td>
-                    <td>16 triệu màu</td>
-                </tr>
-                <tr>
-                    <td>Độ phân giải màn hình</td>
-                    <td>720 x 1480 pixels</td>
-                </tr>
-                <tr>
-                    <td>Công nghệ cảm ứng</td>
-                    <td>Cảm ứng điện dung đa điểm</td>
-                </tr>
-                <tr>
-                    <td>Độ lớn màn hình</td>
-                    <td>Trên 5 inches</td>
-                </tr>
-                <tr>
-                    <th scope="row">CPU</th>
-                </tr>
-                <tr>
-                    <td>Hệ điều hành</td>
-                    <td>Android 10</td>
-                </tr>
-                <tr>
-                    <td>Tốc độ CPU</td>
-                    <td>Quad-core 1.5 GHz Cortex-A53</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+<!--        <div class="col-12" >-->
+<!--            <h2 class="text-center">Thiết Kế Hiện Đại, Nhỏ Gọn</h2>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6">-->
+<!--            <img src="assets/img/img-phone-ss.png" alt="" class="img-fluid" />-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6">-->
+<!--            <table class="table borderless">-->
+<!--                <tbody style="line-height: 8px;">-->
+<!--                <tr>-->
+<!--                    <th scope="row">Tổng quan</th>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Loại điện thoại</td>-->
+<!--                    <td>SmartPhone</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <th scope="row">Sim</th>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Loại sim</td>-->
+<!--                    <td>Nano Sim</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Số sim</td>-->
+<!--                    <td>Hai Sim</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <th scope="row">Màn hình</th>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Kích thước màn hình</td>-->
+<!--                    <td>5.3 inch</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Loại màn hình</td>-->
+<!--                    <td>16 triệu màu</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Độ phân giải màn hình</td>-->
+<!--                    <td>720 x 1480 pixels</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Công nghệ cảm ứng</td>-->
+<!--                    <td>Cảm ứng điện dung đa điểm</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Độ lớn màn hình</td>-->
+<!--                    <td>Trên 5 inches</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <th scope="row">CPU</th>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Hệ điều hành</td>-->
+<!--                    <td>Android 10</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>Tốc độ CPU</td>-->
+<!--                    <td>Quad-core 1.5 GHz Cortex-A53</td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
+<!--            </table>-->
+<!--        </div>-->
     </div>
     <div class="row tra-cuu" id="tra-cuu">
         <div class="col-10 offset-1">
@@ -377,7 +377,88 @@ $isMobile = isMobile();
             <img src="assets/img/img-run-slepp.png" alt="" class="img-fluid" />
         </div>
     </div>
-
+    <div class="row bg-middle">
+        <!--            <div class="col-12">-->
+        <!--                <h3 class="">giới thiệu chương trình:</h3>-->
+        <!--                <p class="text-justify">-->
+        <!--                    Với sứ mệnh là nhà cung cấp hạ tầng số và dịch vụ số hàng đầu Việt Nam, thúc đẩy nhanh quá trình chuyển đổi số quốc gia của Chính phủ, MobiFone triển khai chương trình hỗ trợ chuyển đổi điện thoại lên smartphone dành riêng cho các khách hàng là thuê bao MobiFone.-->
+        <!--                </p>-->
+        <!--            </div>-->
+        <!--        <div class="col-8 offset-4">-->
+        <!--            <h3 class="text-right">ƯU ĐIỂM SẢN PHẨM</h3>-->
+        <!--            <p class="text-right">-->
+        <!--                Trải nghiệm thiết bị Galaxy thêm tối ưu với ứng dụng Samsung-->
+        <!--                Members. Với khả năng hỗ trợ và chẩn đoán tình trạng thiết bị, gửi-->
+        <!--                các báo cáo lỗi và yêu cầu trợ giúp, ứng dụng Samsung Members giúp-->
+        <!--                thiết bị Galaxy của bạn vận hành cách tối ưu hơn, mang đến trải-->
+        <!--                nghiệm người dùng hoàn hảo hơn.-->
+        <!--            </p>-->
+        <!--        </div>-->
+        <div class="col-12" >
+            <h2 class="text-center">Thiết Kế Hiện Đại, Nhỏ Gọn</h2>
+        </div>
+        <div class="col-12 col-md-6">
+            <img src="assets/img/img-phone-ss.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-6">
+            <table class="table borderless">
+                <tbody style="line-height: 8px;">
+                <tr>
+                    <th scope="row">Tổng quan</th>
+                </tr>
+                <tr>
+                    <td>Loại điện thoại</td>
+                    <td>SmartPhone</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sim</th>
+                </tr>
+                <tr>
+                    <td>Loại sim</td>
+                    <td>Nano Sim</td>
+                </tr>
+                <tr>
+                    <td>Số sim</td>
+                    <td>Hai Sim</td>
+                </tr>
+                <tr>
+                    <th scope="row">Màn hình</th>
+                </tr>
+                <tr>
+                    <td>Kích thước màn hình</td>
+                    <td>5.3 inch</td>
+                </tr>
+                <tr>
+                    <td>Loại màn hình</td>
+                    <td>16 triệu màu</td>
+                </tr>
+                <tr>
+                    <td>Độ phân giải màn hình</td>
+                    <td>720 x 1480 pixels</td>
+                </tr>
+                <tr>
+                    <td>Công nghệ cảm ứng</td>
+                    <td>Cảm ứng điện dung đa điểm</td>
+                </tr>
+                <tr>
+                    <td>Độ lớn màn hình</td>
+                    <td>Trên 5 inches</td>
+                </tr>
+                <tr>
+                    <th scope="row">CPU</th>
+                </tr>
+                <tr>
+                    <td>Hệ điều hành</td>
+                    <td>Android 10</td>
+                </tr>
+                <tr>
+                    <td>Tốc độ CPU</td>
+                    <td>Quad-core 1.5 GHz Cortex-A53</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <div class="row list-goi-cuoc" id="uu-dai">
         <div class="col-12 text-center">
             <h3>gói cước ưu đãi</h3>
@@ -444,6 +525,7 @@ $isMobile = isMobile();
                 </tbody>
             </table>
         </div>
+
         <div class="col-12 text-center">
             <h3>Giá bán máy</h3>
         </div>
@@ -500,15 +582,15 @@ $isMobile = isMobile();
         <div class="col-12">
             <h3>Câu hỏi thường gặp</h3>
         </div>
-        <div class="row">
+        <div class="row" id="cau-hoi-collapse">
             <div class="col-12 col-md-6">
                 <div class="content-faq">
                     <p>
-                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">1. ĐỐI TƯỢNG THAM GIA CHƯƠNG TRÌNH?</a>
+                        <a class=""  style="text-transform: uppercase;" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1" >1. ĐỐI TƯỢNG THAM GIA CHƯƠNG TRÌNH?</a>
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse1">
+                            <div class="collapse multi-collapse" id="multiCollapse1" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Thuê bao MobiFone đang sử dụng điện thoại feature phone
                                 </div>
@@ -526,7 +608,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse2">
+                            <div class="collapse multi-collapse" id="multiCollapse2" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Khách hàng có thể tự tra cứu hoặc tra cứu cho người nhân tại mục Tra cứu trên page hoặc nhắn tin theo cú pháp [Số điện thoại] gửi 9129
                                 </div>
@@ -543,7 +625,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse3">
+                            <div class="collapse multi-collapse" id="multiCollapse3" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Có, Khách hàng cần cam kết sử dụng 12 tháng gói cước của MobiFone. Để kiểm soát việc này, khách hàng cần đồng ý cho MobiFone cài đặt phần mềm KNOX của Samsung (phần mềm sẽ tự động được gỡ sau khi khách hàng hoàn thành cam kết).
                                 </div>
@@ -560,7 +642,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse4">
+                            <div class="collapse multi-collapse" id="multiCollapse4" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Không, Khách hàng khi đó được tặng gói TNSP (miễn phí 5GB tối độ cao trong 1 tháng). Hết thời gian khuyến mại, khách hàng được ưu tiên đăng ký gói 5GB với giá 50.000đ, hết lưu lượng dừng truy cập.
                                 </div>
@@ -577,7 +659,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse5">
+                            <div class="collapse multi-collapse" id="multiCollapse5" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Máy Samsung A01 Core của Mobifone là phiên bản độc quyền Samsung dành cho Mobifone để triển khai chương trình đổi máy với bộ nhớ RAM 2Gb, giúp máy mạnh mẽ hơn, khách hàng có thể trải nghiệm tốt và mượt mà hơn
                                 </div>
@@ -594,7 +676,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse6">
+                            <div class="collapse multi-collapse" id="multiCollapse6" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     Sản phẩm được bảo hành chính hãng 12 tháng tại tất cả các TTBH toàn quốc của Samsung. Khách hàng có thể liên hệ các cửa hàng Mobifone gần Nhất Để Được hỗ trợ
                                 </div>
@@ -611,7 +693,7 @@ $isMobile = isMobile();
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapse7">
+                            <div class="collapse multi-collapse" id="multiCollapse7" data-parent="#cau-hoi-collapse">
                                 <div class="">
                                     => Khách hàng có thể liên hệ mua máy tại các cửa hàng MobiFone hoặc để lại thông tin tại phần dưới để được hỗ trợ.
                                 </div>
