@@ -172,18 +172,17 @@ $isMobile = isMobile();
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <div class="cover-header-background-img">
-<!--                <div >-->
-                <div class="cover-header-background-color">
-                    <div class="title-area">
-                        <span class="title-header-1"> Smartphone </span>
-                        <span class="title-header-2"> samsung 4g </span>
-                        <span class="title-header-3"> Chỉ còn </span>
-                        <span class="title-header-4"> 1.290.000 <sup>(*)</sup> </span>
-                        <!-- <span class="title-header-5"> (*) </span> -->
-                    </div>
-                </div>
-            </div>
+<!--            <div class="cover-header-background-img">-->
+<!--                <div class="cover-header-background-color">-->
+<!--                    <div class="title-area">-->
+<!--                        <span class="title-header-1"> Smartphone </span>-->
+<!--                        <span class="title-header-2"> samsung 4g </span>-->
+<!--                        <span class="title-header-3"> Chỉ còn </span>-->
+<!--                        <span class="title-header-4"> 1.290.000 <sup>(*)</sup> </span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            <img src="/assets/img/img-cover-header.png" alt="" class="img-fluid">
         </div>
 
     </div>
