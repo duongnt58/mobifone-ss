@@ -214,56 +214,56 @@ $isMobile = isMobile();
 <!--            <table class="table borderless">-->
 <!--                <tbody style="line-height: 8px;">-->
 <!--                <tr>-->
-<!--                    <th scope="row">Tổng quan</th>-->
+<!--                    <th scope="row" class="align-middle">Tổng quan</th>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Loại điện thoại</td>-->
-<!--                    <td>SmartPhone</td>-->
+<!--                    <td class="align-middle">Loại điện thoại</td>-->
+<!--                    <td class="align-middle">SmartPhone</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <th scope="row">Sim</th>-->
+<!--                    <th scope="row" class="align-middle">Sim</th>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Loại sim</td>-->
-<!--                    <td>Nano Sim</td>-->
+<!--                    <td class="align-middle">Loại sim</td>-->
+<!--                    <td class="align-middle">Nano Sim</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Số sim</td>-->
-<!--                    <td>Hai Sim</td>-->
+<!--                    <td class="align-middle">Số sim</td>-->
+<!--                    <td class="align-middle">Hai Sim</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <th scope="row">Màn hình</th>-->
+<!--                    <th scope="row" class="align-middle">Màn hình</th>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Kích thước màn hình</td>-->
-<!--                    <td>5.3 inch</td>-->
+<!--                    <td class="align-middle">Kích thước màn hình</td>-->
+<!--                    <td class="align-middle">5.3 inch</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Loại màn hình</td>-->
-<!--                    <td>16 triệu màu</td>-->
+<!--                    <td class="align-middle">Loại màn hình</td>-->
+<!--                    <td class="align-middle">16 triệu màu</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Độ phân giải màn hình</td>-->
-<!--                    <td>720 x 1480 pixels</td>-->
+<!--                    <td class="align-middle">Độ phân giải màn hình</td>-->
+<!--                    <td class="align-middle">720 x 1480 pixels</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Công nghệ cảm ứng</td>-->
-<!--                    <td>Cảm ứng điện dung đa điểm</td>-->
+<!--                    <td class="align-middle">Công nghệ cảm ứng</td>-->
+<!--                    <td class="align-middle">Cảm ứng điện dung đa điểm</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Độ lớn màn hình</td>-->
-<!--                    <td>Trên 5 inches</td>-->
+<!--                    <td class="align-middle">Độ lớn màn hình</td>-->
+<!--                    <td class="align-middle">Trên 5 inches</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <th scope="row">CPU</th>-->
+<!--                    <th scope="row" class="align-middle">CPU</th>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Hệ điều hành</td>-->
-<!--                    <td>Android 10</td>-->
+<!--                    <td class="align-middle">Hệ điều hành</td>-->
+<!--                    <td class="align-middle">Android 10</td>-->
 <!--                </tr>-->
 <!--                <tr>-->
-<!--                    <td>Tốc độ CPU</td>-->
-<!--                    <td>Quad-core 1.5 GHz Cortex-A53</td>-->
+<!--                    <td class="align-middle">Tốc độ CPU</td>-->
+<!--                    <td class="align-middle">Quad-core 1.5 GHz Cortex-A53</td>-->
 <!--                </tr>-->
 <!--                </tbody>-->
 <!--            </table>-->
@@ -402,58 +402,58 @@ $isMobile = isMobile();
         </div>
         <div class="col-12 col-md-6">
             <table class="table borderless">
-                <tbody style="line-height: 8px;">
+                <tbody <?php if (!$isMobile) {echo 'style="line-height: 8px;"'; } else { echo 'line-height: 14px;';} ?>
                 <tr>
-                    <th scope="row">Tổng quan</th>
+                    <th scope="row" class="align-middle">Tổng quan</th>
                 </tr>
                 <tr>
-                    <td>Loại điện thoại</td>
-                    <td>SmartPhone</td>
+                    <td class="align-middle">Loại điện thoại</td>
+                    <td class="align-middle">SmartPhone</td>
                 </tr>
                 <tr>
-                    <th scope="row">Sim</th>
+                    <th scope="row" class="align-middle">Sim</th>
                 </tr>
                 <tr>
-                    <td>Loại sim</td>
-                    <td>Nano Sim</td>
+                    <td class="align-middle">Loại sim</td>
+                    <td class="align-middle">Nano Sim</td>
                 </tr>
                 <tr>
-                    <td>Số sim</td>
-                    <td>Hai Sim</td>
+                    <td class="align-middle">Số sim</td>
+                    <td class="align-middle">Hai Sim</td>
                 </tr>
                 <tr>
-                    <th scope="row">Màn hình</th>
+                    <th scope="row" class="align-middle">Màn hình</th>
                 </tr>
                 <tr>
-                    <td>Kích thước màn hình</td>
-                    <td>5.3 inch</td>
+                    <td class="align-middle">Kích thước màn hình</td>
+                    <td class="align-middle">5.3 inch</td>
                 </tr>
                 <tr>
-                    <td>Loại màn hình</td>
-                    <td>16 triệu màu</td>
+                    <td class="align-middle">Loại màn hình</td>
+                    <td class="align-middle">16 triệu màu</td>
                 </tr>
                 <tr>
-                    <td>Độ phân giải màn hình</td>
-                    <td>720 x 1480 pixels</td>
+                    <td class="align-middle">Độ phân giải màn hình</td>
+                    <td class="align-middle">720 x 1480 pixels</td>
                 </tr>
                 <tr>
-                    <td>Công nghệ cảm ứng</td>
-                    <td>Cảm ứng điện dung đa điểm</td>
+                    <td class="align-middle">Công nghệ cảm ứng</td>
+                    <td class="align-middle">Cảm ứng điện dung đa điểm</td>
                 </tr>
                 <tr>
-                    <td>Độ lớn màn hình</td>
-                    <td>Trên 5 inches</td>
+                    <td class="align-middle">Độ lớn màn hình</td>
+                    <td class="align-middle">Trên 5 inches</td>
                 </tr>
                 <tr>
-                    <th scope="row">CPU</th>
+                    <th scope="row" class="align-middle">CPU</th>
                 </tr>
                 <tr>
-                    <td>Hệ điều hành</td>
-                    <td>Android 10</td>
+                    <td class="align-middle">Hệ điều hành</td>
+                    <td class="align-middle">Android 10</td>
                 </tr>
                 <tr>
-                    <td>Tốc độ CPU</td>
-                    <td>Quad-core 1.5 GHz Cortex-A53</td>
+                    <td class="align-middle">Tốc độ CPU</td>
+                    <td class="align-middle">Quad-core 1.5 GHz Cortex-A53</td>
                 </tr>
                 </tbody>
             </table>
@@ -475,51 +475,53 @@ $isMobile = isMobile();
                   );
                 "
                 >
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Tên gói</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Mã gói</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Giá gói</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Dung lượng gói/chu kỳ 31 ngày</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện mua gói</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Tên gói</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Mã gói</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Giá gói</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Dung lượng gói/chu kỳ 31 ngày</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện mua gói</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Gói cước trải nghiệm</td>
-                    <td>TNSP</td>
-                    <td>Miễn phí</td>
-                    <td>5GB, hết dung lượng ngắt kết nối</td>
-                    <td rowspan="4" style="text-align: left">-	Thuê bao MobiFone hiện đang sử dụng điện thoại feature phone và thực hiện chuyển đổi lên smartphone theo chương trình này.
+                    <th scope="row" class="align-middle">1</th>
+                    <td class="align-middle">Gói cước trải nghiệm</td>
+                    <td class="align-middle">TNSP</td>
+                    <td class="align-middle">Miễn phí</td>
+                    <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
+                    <td class="align-middle" rowspan="4" style="text-align: left">-	Thuê bao MobiFone hiện đang sử dụng điện thoại feature phone và thực hiện chuyển đổi lên smartphone theo chương trình này.
                         <br>
                         -	Riêng các gói cước MF50KH, MF120KH, MF200KH dành riêng cho thuê bao trả sau MobiF (không cước thuê bao)
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">2</th>
-                    <td>Gói cước data smartphone</td>
-                    <td>SP50, SP50KH, MF50KH</td>
-                    <td>50.000</td>
-                    <td>5GB, hết dung lượng ngắt kết nối</td>
+                    <th scope="row" class="align-middle">2</th>
+                    <td class="align-middle">Gói cước data smartphone</td>
+                    <td class="align-middle">SP50, SP50KH, MF50KH</td>
+                    <td class="align-middle">50.000</td>
+                    <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
                 </tr>
                 <tr>
-                    <th scope="row">3</th>
-                    <td>Gói cước Combo smartphone 1 </td>
-                    <td>SP120, SP120KH, MF120KH</td>
-                    <td>120.000</td>
-                    <td>
-                        + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
-                        ngoại mạng + Data: 1GB/ngày
+                    <th scope="row" class="align-middle">3</th>
+                    <td class="align-middle">Gói cước Combo smartphone 1 </td>
+                    <td class="align-middle">SP120, SP120KH, MF120KH</td>
+                    <td class="align-middle">120.000</td>
+                    <td class="align-middle">
+                        + Miễn phí cuộc gọi nội mạng dưới 10 phút (Tối đa 1.000 phút)<br/>
+                        + 50 phút cuộc gọi ngoại mạng <br/>
+                        + Data: 1GB/ngày <br/>
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row">4</th>
-                    <td>Gói cước Combo smartphone 2</td>
-                    <td>SP200, SP200KH, MF200KH</td>
-                    <td>200.000</td>
-                    <td>
-                        + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
-                        ngoại mạng + Data: 2GB/ngày
+                    <th scope="row" class="align-middle">4</th>
+                    <td class="align-middle">Gói cước Combo smartphone 2</td>
+                    <td class="align-middle">SP200, SP200KH, MF200KH</td>
+                    <td class="align-middle">200.000</td>
+                    <td class="align-middle">
+                        + Miễn phí cuộc gọi nội mạng dưới 20 phút (Tối đa 1.000 phút)<br/>
+                        + 100 phút cuộc gọi ngoại mạng <br/>
+                        + Data: 2GB/ngày
                     </td>
                 </tr>
                 </tbody>
@@ -541,18 +543,18 @@ $isMobile = isMobile();
                   );
                 "
                 >
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Tập thuê bao</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Giá bán máy</th>
-                    <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện tối thiểu</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Tập thuê bao</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Giá bán máy</th>
+                    <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện tối thiểu</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>FF1</td>
-                    <td>1.290.000</td>
-                    <td style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone, đã hòa mạng trên 1 năm, chưa sử dụng các gói cước data của MobiFone (theo danh sách của MobiFone)
+                    <th scope="row" class="align-middle">1</th>
+                    <td class="align-middle">FF1</td>
+                    <td class="align-middle">1.290.000</td>
+                    <td class="align-middle" style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone, đã hòa mạng trên 1 năm, chưa sử dụng các gói cước data của MobiFone (theo danh sách của MobiFone)
                         <br>
                         - Khách hàng đứng tên chính chủ thuê bao khi mua máy. <br>
                         - Cam kết sử dụng 12 tháng một trong các gói cước: SP50KH, SP120KH, SP200KH, MF50KH, MF120KH, MF200KH.
@@ -562,10 +564,10 @@ $isMobile = isMobile();
 
                 </tr>
                 <tr>
-                    <th scope="row">2</th>
-                    <td>FF2</td>
-                    <td>1.790.000</td>
-                    <td style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone (theo danh sách của MobiFone).
+                    <th scope="row" class="align-middle">2</th>
+                    <td class="align-middle">FF2</td>
+                    <td class="align-middle">1.790.000</td>
+                    <td class="align-middle" style="text-align: left">- Thuê bao MobiFone đang sử dụng điện thoại feature phone (theo danh sách của MobiFone).
                         <br>
                         - Khách hàng đứng tên chính chủ thuê bao khi mua máy. <br>
                         - Đăng ký sử dụng một trong các gói cước: TNSP, SP50, SP120, SP200.
@@ -890,38 +892,38 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Tên gói</th>
-                        <th scope="col" class="FF1-SP50KH">SP50KH</th>
-                        <th scope="col" class="FF1-SP120KH">SP120KH</th>
-                        <th scope="col" class="FF1-SP200KH">SP200KH</th>
-                        <th scope="col" class="FF1-MF50KH">MF50KH</th>
-                        <th scope="col" class="FF1-MF120KH">MF120KH</th>
-                        <th scope="col" class="FF1-MF200KH">MF200KH</th>
-                        <th scope="col" class="FF1-SP50">SP50</th>
-                        <th scope="col" class="FF1-SP120">SP120</th>
-                        <th scope="col" class="FF1-SP200">SP200</th>
+                        <th scope="col" class="align-middle">Tên gói</th>
+                        <th scope="col" class="align-middle" class="FF1-SP50KH">SP50KH</th>
+                        <th scope="col" class="align-middle" class="FF1-SP120KH">SP120KH</th>
+                        <th scope="col" class="align-middle" class="FF1-SP200KH">SP200KH</th>
+                        <th scope="col" class="align-middle" class="FF1-MF50KH">MF50KH</th>
+                        <th scope="col" class="align-middle" class="FF1-MF120KH">MF120KH</th>
+                        <th scope="col" class="align-middle" class="FF1-MF200KH">MF200KH</th>
+                        <th scope="col" class="align-middle" class="FF1-SP50">SP50</th>
+                        <th scope="col" class="align-middle" class="FF1-SP120">SP120</th>
+                        <th scope="col" class="align-middle" class="FF1-SP200">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán</td>
-                        <td class="FF1-SP50KH">1,290,000</td>
-                        <td class="FF1-SP120KH">1,290,000</td>
-                        <td class="FF1-SP200KH">1,290,000</td>
-                        <td class="FF1-MF50KH">1,290,000</td>
-                        <td class="FF1-MF120KH">1,290,000</td>
-                        <td class="FF1-MF200KH">1,290,000</td>
-                        <td class="FF1-SP50">1,790,000</td>
-                        <td class="FF1-SP120">1,790,000</td>
-                        <td class="FF1-SP200">1,790,000</td>
+                        <td class="align-middle">Giá bán</td>
+                        <td class="align-middle" class="FF1-SP50KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-SP120KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-SP200KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-MF50KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-MF120KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-MF200KH">1,290,000</td>
+                        <td class="align-middle" class="FF1-SP50">1,790,000</td>
+                        <td class="align-middle" class="FF1-SP120">1,790,000</td>
+                        <td class="align-middle" class="FF1-SP200">1,790,000</td>
                     </tr>
                     <tr>
-                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold " onclick="actionMuaNgay('NULL')" disabled="" style="
+                        <td class="align-middle"><button type="button" class="btn btn-warning text-danger font-weight-bold " onclick="actionMuaNgay('NULL')" disabled="" style="
     visibility: hidden;
 ">
                                 Mua ngay
                             </button></td>
-                        <td class="FF1-SP50KH">
+                        <td class="align-middle" class="FF1-SP50KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50KH')"
@@ -929,7 +931,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-SP120KH">
+                        <td class="align-middle" class="FF1-SP120KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120KH')"
@@ -937,7 +939,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-SP200KH">
+                        <td class="align-middle" class="FF1-SP200KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200KH')"
@@ -945,7 +947,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-MF50KH">
+                        <td class="align-middle" class="FF1-MF50KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF50KH')"
@@ -953,7 +955,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-MF120KH">
+                        <td class="align-middle" class="FF1-MF120KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF120KH')"
@@ -961,7 +963,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-MF120KH">
+                        <td class="align-middle" class="FF1-MF120KH">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('MF120KH')"
@@ -969,7 +971,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-SP50">
+                        <td class="align-middle" class="FF1-SP50">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
@@ -977,7 +979,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-SP120">
+                        <td class="align-middle" class="FF1-SP120">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
@@ -985,7 +987,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF1-SP200">
+                        <td class="align-middle" class="FF1-SP200">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
@@ -1031,26 +1033,26 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Tên gói</th>
-                        <th scope="col" class="FF2-SP50">SP50</th>
-                        <th scope="col" class="FF2-SP120">SP120</th>
-                        <th scope="col" class="FF2-SP200">SP200</th>
+                        <th scope="col" class="align-middle">Tên gói</th>
+                        <th scope="col" class="align-middle" class="FF2-SP50">SP50</th>
+                        <th scope="col" class="align-middle" class="FF2-SP120">SP120</th>
+                        <th scope="col" class="align-middle" class="FF2-SP200">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán</td>
-                        <td class="FF2-SP50">1,790,000</td>
-                        <td class="FF2-SP120">1,790,000</td>
-                        <td class="FF2-SP200">1,790,000</td>
+                        <td class="align-middle">Giá bán</td>
+                        <td class="align-middle" class="FF2-SP50">1,790,000</td>
+                        <td class="align-middle" class="FF2-SP120">1,790,000</td>
+                        <td class="align-middle" class="FF2-SP200">1,790,000</td>
                     </tr>
                     <tr>
-                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
+                        <td class="align-middle"><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
     visibility: hidden;
 ">
                                 Mua ngay
                             </button></td>
-                        <td class="FF2-SP50">
+                        <td class="align-middle" class="FF2-SP50">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
@@ -1058,7 +1060,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF2-SP120">
+                        <td class="align-middle" class="FF2-SP120">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
@@ -1066,7 +1068,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td class="FF2-SP200">
+                        <td class="align-middle" class="FF2-SP200">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
@@ -1112,26 +1114,26 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Tên gói</th>
-                        <th scope="col">SP50</th>
-                        <th scope="col">SP120</th>
-                        <th scope="col">SP200</th>
+                        <th scope="col" class="align-middle">Tên gói</th>
+                        <th scope="col" class="align-middle">SP50</th>
+                        <th scope="col" class="align-middle">SP120</th>
+                        <th scope="col" class="align-middle">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Giá bán</td>
-                        <td>1,990,000</td>
-                        <td>1,990,000</td>
-                        <td>1,990,000</td>
+                        <td class="align-middle">Giá bán</td>
+                        <td class="align-middle">1,990,000</td>
+                        <td class="align-middle">1,990,000</td>
+                        <td class="align-middle">1,990,000</td>
                     </tr>
                     <tr>
-                        <td><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
+                        <td class="align-middle"><button type="button" class="btn btn-warning text-danger font-weight-bold" onclick="actionMuaNgay('NULL')" disabled="" style="
     visibility: hidden;
 ">
                                 Mua ngay
                             </button></td>
-                        <td>
+                        <td class="align-middle">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP50')"
@@ -1139,7 +1141,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="align-middle">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP120')"
@@ -1147,7 +1149,7 @@ $isMobile = isMobile();
                                 Mua ngay
                             </button>
                         </td>
-                        <td>
+                        <td class="align-middle">
                             <button
                                     type="button"
                                     class="btn btn-warning text-danger font-weight-bold" onClick="actionMuaNgay('SP200')"
@@ -1201,137 +1203,137 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col">Tên gói cước (*)</th>
-                        <th scope="col">TNSP</th>
-                        <th scope="col">SP50KH</th>
-                        <th scope="col">SP120KH</th>
-                        <th scope="col">SP200KH</th>
-                        <th scope="col">MF50KH</th>
-                        <th scope="col">MF120KH</th>
-                        <th scope="col">MF200KH</th>
-                        <th scope="col">SP50</th>
-                        <th scope="col">SP120</th>
-                        <th scope="col">SP200</th>
+                        <th scope="col" class="align-middle">Tên gói cước (*)</th>
+                        <th scope="col" class="align-middle">TNSP</th>
+                        <th scope="col" class="align-middle">SP50KH</th>
+                        <th scope="col" class="align-middle">SP120KH</th>
+                        <th scope="col" class="align-middle">SP200KH</th>
+                        <th scope="col" class="align-middle">MF50KH</th>
+                        <th scope="col" class="align-middle">MF120KH</th>
+                        <th scope="col" class="align-middle">MF200KH</th>
+                        <th scope="col" class="align-middle">SP50</th>
+                        <th scope="col" class="align-middle">SP120</th>
+                        <th scope="col" class="align-middle">SP200</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">Loại thuê bao</th>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
-                        <td>Thuê bao hiện hữu</td>
+                        <th scope="row" class="align-middle">Loại thuê bao</th>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
+                        <td class="align-middle">Thuê bao hiện hữu</td>
                     </tr>
                     <tr>
-                        <th scope="row">Thoại nội mạng (*)</th>
-                        <td>...</td>
-                        <td>...</td>
-                        <td>miễn phí dưới 20 phút</td>
-                        <td>miễn phí dưới 20 phút</td>
-                        <td>...</td>
-                        <td>miễn phí dưới 20 phút</td>
-                        <td>miễn phí dưới 20 phút</td>
-                        <td>...</td>
-                        <td>miễn phí dưới 20 phút</td>
-                        <td>miễn phí dưới 20 phút</td>
+                        <th scope="row" class="align-middle">Thoại nội mạng (*)</th>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
+                        <td class="align-middle">miễn phí dưới 20 phút</td>
                     </tr>
                     <tr>
-                        <th scope="row"> Thoại ngoài mạng (*)</th>
-                        <td>...</td>
-                        <td>...</td>
-                        <td>50 phút</td>
-                        <td>100 phút</td>
-                        <td>...</td>
-                        <td>50 phút</td>
-                        <td>100 phút</td>
-                        <td>...</td>
-                        <td>50 phút</td>
-                        <td>100 phút</td>
+                        <th scope="row" class="align-middle"> Thoại ngoài mạng (*)</th>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">50 phút</td>
+                        <td class="align-middle">100 phút</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">50 phút</td>
+                        <td class="align-middle">100 phút</td>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">50 phút</td>
+                        <td class="align-middle">100 phút</td>
                     </tr>
                     <tr>
-                        <th scope="row"> Data (*)</th>
-                        <td>5Gb</td>
-                        <td>5Gb</td>
-                        <td>1Gb/ngày</td>
-                        <td>2Gb/ngày</td>
-                        <td>5Gb</td>
-                        <td>1Gb/ngày</td>
-                        <td>2Gb/ngày</td>
-                        <td>5Gb</td>
-                        <td>1Gb/ngày</td>
-                        <td>2Gb/ngày</td>
+                        <th scope="row" class="align-middle"> Data (*)</th>
+                        <td class="align-middle">5Gb</td>
+                        <td class="align-middle">5Gb</td>
+                        <td class="align-middle">1Gb/ngày</td>
+                        <td class="align-middle">2Gb/ngày</td>
+                        <td class="align-middle">5Gb</td>
+                        <td class="align-middle">1Gb/ngày</td>
+                        <td class="align-middle">2Gb/ngày</td>
+                        <td class="align-middle">5Gb</td>
+                        <td class="align-middle">1Gb/ngày</td>
+                        <td class="align-middle">2Gb/ngày</td>
                     </tr>
                     <tr>
-                        <th scope="row">Giá gói cước/tháng (Chưa bao gồm cước thuê bao)</th>
-                        <td>Chu kỳ đầu: 0đ.<br>
+                        <th scope="row" class="align-middle">Giá gói cước/tháng (Chưa bao gồm cước thuê bao)</th>
+                        <td class="align-middle">Chu kỳ đầu: 0đ.<br>
                             Chu kỳ tiếp theo: 50.000đ</td>
-                        <td>50.000đ</td>
-                        <td>120.000đ</td>
-                        <td>200.000</td>
-                        <td>50.000đ</td>
-                        <td>120.000đ</td>
-                        <td>200.000</td>
-                        <td>50.000đ</td>
-                        <td>120.000đ</td>
-                        <td>200.000</td>
+                        <td class="align-middle">50.000đ</td>
+                        <td class="align-middle">120.000đ</td>
+                        <td class="align-middle">200.000</td>
+                        <td class="align-middle">50.000đ</td>
+                        <td class="align-middle">120.000đ</td>
+                        <td class="align-middle">200.000</td>
+                        <td class="align-middle">50.000đ</td>
+                        <td class="align-middle">120.000đ</td>
+                        <td class="align-middle">200.000</td>
                     </tr>
                     <tr>
-                        <th scope="row">Số chu kỳ cam kết</th>
-                        <td>...</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
-                        <td>12 tháng</td>
+                        <th scope="row" class="align-middle">Số chu kỳ cam kết</th>
+                        <td class="align-middle">...</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
+                        <td class="align-middle">12 tháng</td>
                     </tr>
                     <tr>
-                        <th scope="row">Điều kiện</th>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 2</td>
-                        <td>Điều kiện 2</td>
-                        <td>Điều kiện 2</td>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 1</td>
-                        <td>Điều kiện 1</td>
+                        <th scope="row" class="align-middle">Điều kiện</th>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 2</td>
+                        <td class="align-middle">Điều kiện 2</td>
+                        <td class="align-middle">Điều kiện 2</td>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 1</td>
+                        <td class="align-middle">Điều kiện 1</td>
                     </tr>
                     <tr>
-                        <th scope="row">Cài đặt phần mềm KNOX</th>
-                        <td></td>
-                        <td>Có</td>
-                        <td>Có</td>
-                        <td>Có</td>
-                        <td>Có</td>
-                        <td>Có</td>
-                        <td>Có</td>
-                        <td>Không</td>
-                        <td>Không</td>
-                        <td>Không</td>
+                        <th scope="row" class="align-middle">Cài đặt phần mềm KNOX</th>
+                        <td class="align-middle"></td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Có</td>
+                        <td class="align-middle">Không</td>
+                        <td class="align-middle">Không</td>
+                        <td class="align-middle">Không</td>
                     </tr>
                     <tr>
-                        <th scope="row">Đăng ký gói</th>
-                        <td>TNSP hoặc DK TNSP gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>Qua cửa hàng MobiFone</td>
-                        <td>Qua cửa hàng MobiFone</td>
-                        <td>Qua cửa hàng MobiFone</td>
-                        <td>SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
-                        <td>SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <th scope="row" class="align-middle">Đăng ký gói</th>
+                        <td class="align-middle">TNSP hoặc DK TNSP gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">Qua cửa hàng MobiFone</td>
+                        <td class="align-middle">Qua cửa hàng MobiFone</td>
+                        <td class="align-middle">Qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP50KH hoặc DK SP50KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP120KH hoặc DK SP120KH gửi 999 hoặc qua cửa hàng MobiFone</td>
+                        <td class="align-middle">SP200KH hoặc DK SP200KH gửi 999 hoặc qua cửa hàng MobiFone</td>
                     </tr>
                     </tbody>
                 </table>
@@ -1374,55 +1376,55 @@ $isMobile = isMobile();
                   );
                 "
                     >
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Tên gói</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Mã gói</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Giá gói</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Dung lượng gói</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện</th>
-                        <th scope="col" style="text-transform: uppercase;vertical-align: middle;">Hạn sử dụng gói cước</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >STT</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Tên gói</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Mã gói</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Giá gói</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Dung lượng gói</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;" >Điều kiện</th>
+                        <th scope="col" class="align-middle" style="text-transform: uppercase;vertical-align: middle;">Hạn sử dụng gói cước</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Gói cước trải nghiệm</td>
-                        <td>TNSP</td>
-                        <td>0</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>Một thuê bao được sử dụng tối đa 01 lần gói TNSP</td>
-                        <td rowspan="4"">30 ngày</td>
+                        <th scope="row" class="align-middle">1</th>
+                        <td class="align-middle">Gói cước trải nghiệm</td>
+                        <td class="align-middle">TNSP</td>
+                        <td class="align-middle">0</td>
+                        <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
+                        <td class="align-middle">Một thuê bao được sử dụng tối đa 01 lần gói TNSP</td>
+                        <td class="align-middle" rowspan="4"">30 ngày</td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Gói cước data smartphone</td>
-                        <td>SP50, SP50KH, MF50KH</td>
-                        <td>50.000</td>
-                        <td>5GB, hết dung lượng ngắt kết nối</td>
-                        <td>-</td>
+                        <th scope="row" class="align-middle">2</th>
+                        <td class="align-middle">Gói cước data smartphone</td>
+                        <td class="align-middle">SP50, SP50KH, MF50KH</td>
+                        <td class="align-middle">50.000</td>
+                        <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
+                        <td class="align-middle">-</td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Gói cước Combo smartphone 1 </td>
-                        <td>SP120, SP120KH, MF120KH</td>
-                        <td>120.000</td>
-                        <td>
+                        <th scope="row" class="align-middle">3</th>
+                        <td class="align-middle">Gói cước Combo smartphone 1 </td>
+                        <td class="align-middle">SP120, SP120KH, MF120KH</td>
+                        <td class="align-middle">120.000</td>
+                        <td class="align-middle">
                             + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
                             ngoại mạng + Data: 1GB/ngày
                         </td>
-                        <td>ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 120.000đ/tháng</td>
+                        <td class="align-middle">ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 120.000đ/tháng</td>
 
                     </tr>
                     <tr>
-                        <th scope="row">4</th>
-                        <td>Gói cước Combo smartphone 2</td>
-                        <td>SP200, SP200KH, MF200KH</td>
-                        <td>200.000</td>
-                        <td>
+                        <th scope="row" class="align-middle">4</th>
+                        <td class="align-middle">Gói cước Combo smartphone 2</td>
+                        <td class="align-middle">SP200, SP200KH, MF200KH</td>
+                        <td class="align-middle">200.000</td>
+                        <td class="align-middle">
                             + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
                             ngoại mạng + Data: 2GB/ngày
                         </td>
-                        <td>ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 200.000đ/tháng</td>
+                        <td class="align-middle">ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 200.000đ/tháng</td>
                     </tr>
                     </tbody>
                 </table>
