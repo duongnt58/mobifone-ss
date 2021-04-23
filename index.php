@@ -507,7 +507,7 @@ $isMobile = isMobile();
                     <td class="align-middle">Gói cước Combo smartphone 1 </td>
                     <td class="align-middle">SP120, SP120KH, MF120KH</td>
                     <td class="align-middle">120.000</td>
-                    <td class="align-middle">
+                    <td class="align-middle text-left">
                         + Miễn phí cuộc gọi nội mạng dưới 10 phút (Tối đa 1.000 phút)<br/>
                         + 50 phút cuộc gọi ngoại mạng <br/>
                         + Data: 1GB/ngày <br/>
@@ -518,7 +518,7 @@ $isMobile = isMobile();
                     <td class="align-middle">Gói cước Combo smartphone 2</td>
                     <td class="align-middle">SP200, SP200KH, MF200KH</td>
                     <td class="align-middle">200.000</td>
-                    <td class="align-middle">
+                    <td class="align-middle text-left">
                         + Miễn phí cuộc gọi nội mạng dưới 20 phút (Tối đa 1.000 phút)<br/>
                         + 100 phút cuộc gọi ngoại mạng <br/>
                         + Data: 2GB/ngày
@@ -1408,9 +1408,10 @@ $isMobile = isMobile();
                         <td class="align-middle">Gói cước Combo smartphone 1 </td>
                         <td class="align-middle">SP120, SP120KH, MF120KH</td>
                         <td class="align-middle">120.000</td>
-                        <td class="align-middle">
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 50 phút cuộc gọi
-                            ngoại mạng + Data: 1GB/ngày
+                        <td class="align-middle text-left">
+                            + Miễn phí cuộc gọi nội mạng dưới 10 phút (Tối đa 1.000 phút) <br>
+                            + 50 phút cuộc gọi ngoại mạng <br>
+                            + Data: 1GB/ngày
                         </td>
                         <td class="align-middle">ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 120.000đ/tháng</td>
 
@@ -1420,9 +1421,10 @@ $isMobile = isMobile();
                         <td class="align-middle">Gói cước Combo smartphone 2</td>
                         <td class="align-middle">SP200, SP200KH, MF200KH</td>
                         <td class="align-middle">200.000</td>
-                        <td class="align-middle">
-                            + Miễn phí cuộc gọi nội mạng dưới 20 phút + 100 phút cuộc gọi
-                            ngoại mạng + Data: 2GB/ngày
+                        <td class="align-middle text-left">
+                            + Miễn phí cuộc gọi nội mạng dưới 20 phút (Tối đa 1.000 phút) <br>
+                            + 100 phút cuộc gọi ngoại mạng <br>
+                            + Data: 2GB/ngày
                         </td>
                         <td class="align-middle">ARPU/tháng (bao gồm VAT) trong 3 tháng gần nhất < 200.000đ/tháng</td>
                     </tr>

@@ -73,7 +73,8 @@ $('#btn-tra-cuu').on('click', '', (e) => {
                $('#content-ff').text(textt);
                $('#content-fff').html(textt2);
            } else {
-               $('#content-ff').text("");
+               let textt =  "Thuê bao " + msisdn + " thuộc tập thuê bao (3), được mua máy Samsung A01 core 02 Gb với giá 1.990.000đ (giá gốc 2.290.000đ)."
+               $('#content-ff').text(textt);
                $('#content-fff').html("");
            }
             $('#modal-FF').modal('toggle');
