@@ -308,7 +308,10 @@ $isMobile = isMobile();
                     <h3>A01 CORE 2GB</h3>
                 </div>
                 <div class="price-ss-core">
-                    <span style="text-decoration:line-through red; font-size: 26px;">2.290.000</span>
+                    <span style="text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: red;
+  -webkit-text-decoration-color: red;;  font-size: 22px;padding-top: 5px">2.290.000</span>
 					<h3 style="text-decoration-line: none;">1.290.000 </h3>
                     <span><sup>(*)</sup> khi mua kèm gói cước của mobifone</span>
                 </div>
