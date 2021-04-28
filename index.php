@@ -362,10 +362,7 @@ $isMobile = isMobile();
             <h3>Tối Ưu Hiệu Suất Hoạt Động</h3>
             <div class="col-10 offset-1">
                 <p>
-                    Hệ điều hành Android (Phiên bản Go) giúp bộ nhớ luôn được tối ưu
-                    với các ứng dụng tùy chỉnh được cài đặt trước, hỗ trợ sử dụng
-                    nhanh chóng và dễ dàng Galaxy A01 Core. Trải nghiệm hiệu năng mượt
-                    mà và bộ nhớ trong ấn tượng.
+                    Hệ điều hành Android (Phiên bản Go) giúp bộ nhớ luôn được tối ưu với các ứng dụng tùy chỉnh được cài đặt trước, hỗ trợ sử dụng nhanh chóng và dễ dàng Galaxy A01 Core. Trải nghiệm hiệu năng mượt mà với 2GB RAM và bộ nhớ trong ấn tượng 32GB.
                 </p>
             </div>
         </div>
