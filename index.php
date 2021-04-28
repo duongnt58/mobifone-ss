@@ -59,10 +59,12 @@ $isMobile = isMobile();
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body <?php if ($isOK) echo "onLoad=\"$('#exampleModal').modal('show');\""?> >
+<a id="button" style="text-decoration: none;"></a>
 <!-- Navigation -->
 <?php if ($isMobile === 1) { ?>
     <!-- <ul class="nav nav-fill bg-blue">
@@ -289,6 +291,10 @@ $isMobile = isMobile();
                     <button type="" class="btn btn-primary mb-2" id='btn-tra-cuu'>
                         TRA CỨU
                     </button>
+                    <div id="loadinggg">
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -302,7 +308,8 @@ $isMobile = isMobile();
                     <h3>A01 CORE 2GB</h3>
                 </div>
                 <div class="price-ss-core">
-                    <h3>2.290.000 <sup>(*)</sup></h3>
+                    <span style="text-decoration:line-through red; font-size: 26px;">2.290.000</span>
+					<h3 style="text-decoration-line: none;">1.290.000 </h3>
                     <span><sup>(*)</sup> khi mua kèm gói cước của mobifone</span>
                 </div>
             </div>
@@ -355,7 +362,7 @@ $isMobile = isMobile();
                     Hệ điều hành Android (Phiên bản Go) giúp bộ nhớ luôn được tối ưu
                     với các ứng dụng tùy chỉnh được cài đặt trước, hỗ trợ sử dụng
                     nhanh chóng và dễ dàng Galaxy A01 Core. Trải nghiệm hiệu năng mượt
-                    mà với RAM 1GB/2GB và bộ nhớ trong ấn tượng 16GB/32GB.
+                    mà và bộ nhớ trong ấn tượng.
                 </p>
             </div>
         </div>
@@ -438,10 +445,6 @@ $isMobile = isMobile();
                 <tr>
                     <td class="align-middle">Công nghệ cảm ứng</td>
                     <td class="align-middle">Cảm ứng điện dung đa điểm</td>
-                </tr>
-                <tr>
-                    <td class="align-middle">Độ lớn màn hình</td>
-                    <td class="align-middle">Trên 5 inches</td>
                 </tr>
                 <tr>
                     <th scope="row" class="align-middle">CPU</th>
@@ -1392,7 +1395,7 @@ $isMobile = isMobile();
                         <td class="align-middle">0</td>
                         <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
                         <td class="align-middle">Một thuê bao được sử dụng tối đa 01 lần gói TNSP</td>
-                        <td class="align-middle" rowspan="4"">30 ngày</td>
+                        <td class="align-middle" rowspan="4"">31 ngày</td>
                     </tr>
                     <tr>
                         <th scope="row" class="align-middle">2</th>
@@ -1400,7 +1403,7 @@ $isMobile = isMobile();
                         <td class="align-middle">SP50, SP50KH, MF50KH</td>
                         <td class="align-middle">50.000</td>
                         <td class="align-middle">5GB, hết dung lượng ngắt kết nối</td>
-                        <td class="align-middle">-</td>
+                        <td class="align-middle text-center">-</td>
                     </tr>
                     <tr>
                         <th scope="row" class="align-middle">3</th>
@@ -1436,7 +1439,9 @@ $isMobile = isMobile();
             <!--            </div>-->
         </div>
     </div>
+
 </div>
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>

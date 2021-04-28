@@ -12,13 +12,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die;
     }
     if (strpos($msisdn, '+84') === 0) {
-        $msisdn = str_replace('+84', '', $msisdn);
+        $msisdn = substr($msisdn, '3', strlen($msisdn) -3);
     }
     if (strpos($msisdn, '84') === 0) {
-        $msisdn = str_replace('84', '', $msisdn);
+        $msisdn = substr($msisdn, '2', strlen($msisdn) -2);
     }
     if (strpos($msisdn, '0') === 0) {
-        $msisdn = str_replace('0', '', $msisdn);
+        $msisdn = substr($msisdn, '1', strlen($msisdn) -1);
     }
 
     try {
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $rows = $stmt->fetchAll();
-
+        $messages = '';
         if (empty($rows)) {
             $result = [
                 'success' => true,
@@ -43,49 +43,57 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $type = isset($rows[0]) ? $rows[0]['type'] : 'FF3';
             $type = empty($type) ? 'FF3' : $type;
             if ($type === 'FF1') {
-                $listPack = ['SP50KH', 'SP120KH', 'SP200KH', 'MF50KH', 'MF120KH', 'MF200KH', 'SP50', 'SP120', 'SP200'];
+                $listPack = ['SP50KH', 'SP120KH', 'SP200KH', 'MF50KH', 'MF120KH', 'MF200KH'];
                 $listPackAss = [];
 
-//                foreach ($listPack as $pack) {
-////                    $tbl = strtolower($pack);
-//                    $tbl = $pack;
-//                    $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
-//                    $stmt = $conn->prepare($sql);
-//                    $stmt->bindParam(':msisdn', $msisdn);
-//                    $stmt->execute();
-//                    $stmt->setFetchMode(PDO::FETCH_ASSOC);
-//                    $row = $stmt->fetch();
-//                    if (!(empty($row) || $row['count_msisdn'] == 0)) {
-//                        $listPackAss[] = $pack;
-//                    }
-//                }
+                foreach ($listPack as $pack) {
+//                    $tbl = strtolower($pack);
+                    try {
+                        $tbl = $pack;
+                        $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
+                        $stmt = $conn->prepare($sql);
+                        $stmt->bindParam(':msisdn', $msisdn);
+                        $stmt->execute();
+                        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+                        $row = $stmt->fetch();
+                        if (!(empty($row) || $row['count_msisdn'] == 0)) {
+                            $listPackAss[] = $pack;
+                        }
+                    } catch (Exception $e) {
+                        $messages .= $e->getMessage();
+                    }
+                }
                 $result = [
                     'success' => true,
                     'data' => ['type' => $type],
                     'pack' => $listPackAss,
-                    'message' => ''
+                    'message' => $messages
                 ];
             } else if ($type === 'FF2') {
-                $listPack = ['SP50', 'SP120', 'SP200'];
+                $listPack = ['SP50', 'SP120', 'SP200', 'TNSP'];
                 $listPackAss = [];
-//                foreach ($listPack as $pack) {
-////                    $tbl = strtolower($pack);
-//                    $tbl = $pack;
-//                    $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
-//                    $stmt = $conn->prepare($sql);
-//                    $stmt->bindParam(':msisdn', $msisdn);
-//                    $stmt->execute();
-//                    $stmt->setFetchMode(PDO::FETCH_ASSOC);
-//                    $row = $stmt->fetch();
-//                    if (!(empty($row) || $row['count_msisdn'] == 0)) {
-//                        $listPackAss[] = $pack;
-//                    }
-//                }
+                foreach ($listPack as $pack) {
+//                    $tbl = strtolower($pack);
+                    try {
+                        $tbl = $pack;
+                        $sql = "SELECT COUNT(*) AS count_msisdn  FROM $tbl WHERE msisdn = :msisdn";
+                        $stmt = $conn->prepare($sql);
+                        $stmt->bindParam(':msisdn', $msisdn);
+                        $stmt->execute();
+                        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+                        $row = $stmt->fetch();
+                        if (!(empty($row) || $row['count_msisdn'] == 0)) {
+                            $listPackAss[] = $pack;
+                        }
+                    } catch (Exception $e) {
+                        $messages .= $e->getMessage();
+                    }
+                }
                 $result = [
                     'success' => true,
                     'data' => ['type' => $type],
                     'pack' => $listPackAss,
-                    'message' => ''
+                    'message' => $messages
                 ];
             } else {
                 $result = [
