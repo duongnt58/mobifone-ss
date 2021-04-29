@@ -307,7 +307,7 @@ $isMobile = isMobile();
                     <h3>Samsung Galaxy</h3>
                     <h3>A01 CORE 2GB</h3>
                 </div>
-                <div class="price-ss-core">
+                <div class="price-ss-core" <?php if($isMobile) { echo 'style="padding-top: 15px;"'; }?>>
                     <span style="text-decoration-line: line-through;
   -webkit-text-decoration-line: line-through;
   text-decoration-color: red;
